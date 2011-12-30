@@ -5,7 +5,7 @@ excerpt:
   Quick guide to downloading the view engine from NuGet and implementing it on your MVC3 site.
 ---
 
-Here is how you set it up:
+Here is how you set it up
 
 1. Make sure you have the latest version of NuGet: [http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c
 Install-Package MvcRazorThemeableViewEngine]http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c
@@ -16,8 +16,7 @@ When you install the package, it creates two folders and a file in root. The fir
 
 You'll want to edit your global.asax.cs file to make sure it's registering the custom view engine. The global-temp.asax.cs is provided as an example. You'll specifically want these two methods:
 
-	public static void RegisterViewEngine(ViewEngineCollection viewEngines)
-    {
+	public static void RegisterViewEngine(ViewEngineCollection viewEngines) {
 		viewEngines.Clear();
         var themeableRazorViewEngine = new ThemeableRazorViewEngine {
 			CurrentTheme = httpContext => httpContext.Session["theme"] as string ?? string.Empty
@@ -26,8 +25,7 @@ You'll want to edit your global.asax.cs file to make sure it's registering the c
         viewEngines.Add(themeableRazorViewEngine);
     }
 
-	protected void Application_Start()
-    {
+	protected void Application_Start() {
         AreaRegistration.RegisterAllAreas();
         RegisterGlobalFilters(GlobalFilters.Filters);
         RegisterRoutes(RouteTable.Routes);
@@ -38,7 +36,7 @@ Build and run and you should be running on the new theme engine.
 
 ##Theming your site
 
-Let's create an example theme called "Red" that will be, you guessed it, red:
+Let's create an example theme called "Red" that will be, you guessed it, red
 
 1. In your Content folder, add a folder called Red with a Site.css file in it that sets the background to red.
 2. In your views folder, create a Themes folder and a Red folder.

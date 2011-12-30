@@ -92,6 +92,17 @@ ul.nav li a:hover{
   line-height:1.5;
 }
 
+.avatar{
+  margin-left: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 15px #ccc;
+  opacity: .8;
+}
+.avatar:hover{
+  opacity: 1;
+}
+
 .listing .post{
   margin:40px 0;
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HAutomated Deployment with AppHarbor"
+title: "Automated Deployment with AppHarbor"
 excerpt:
   I’m a big believer in simplifying every aspect of the software development process from “file new project” to deployment. Nothing should take more than a click-or-two, or a few keystrokes. I believe my focus should always be on the code, not the tool. Microsoft has done a great job at perfecting my primary tool, Visual Studio, and now AppHarbor has made web deployment automatic for my daily workflow.
 ---

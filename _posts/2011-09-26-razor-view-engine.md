@@ -44,6 +44,7 @@ Let's create an example theme called "Red" that will be, you guessed it, red:
 4. Add some text to the Index view so that you can identifiy that it's your Red theme index page.
 5. Update your Views/Shared/_Layout.cshtml file to point to your theme specific style sheet.
 
+
 	link href="@Url.Css("Site.css")" rel="stylesheet"
 
 Now, update your home controller someone to set the theme sesion variable to "Red" and you'll see your custom theme.

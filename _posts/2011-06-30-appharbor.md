@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hackathons - are they useful?"
+title: "HAutomated Deployment with AppHarbor"
 excerpt:
   Just about every site I own has been moved to [AppHarbor](https://appharbor.com/). [SideBox](http://www.sidebox.com), [FHA Web Express](http:www.fhawebexpress.com), [CoovTech](http://www.coovtech.com), [Tekfolio](http://www.tekfolio.me) are some examples - It's a must have not just for scale and flexibility, but also for automated deployment.
 ---

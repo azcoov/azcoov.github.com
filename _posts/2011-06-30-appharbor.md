@@ -2,7 +2,7 @@
 layout: post
 title: "HAutomated Deployment with AppHarbor"
 excerpt:
-  Just about every site I own has been moved to [AppHarbor](https://appharbor.com/). [SideBox](http://www.sidebox.com), [FHA Web Express](http:www.fhawebexpress.com), [CoovTech](http://www.coovtech.com), [Tekfolio](http://www.tekfolio.me) are some examples - It's a must have not just for scale and flexibility, but also for automated deployment.
+  I’m a big believer in simplifying every aspect of the software development process from “file new project” to deployment. Nothing should take more than a click-or-two, or a few keystrokes. I believe my focus should always be on the code, not the tool. Microsoft has done a great job at perfecting my primary tool, Visual Studio, and now AppHarbor has made web deployment automatic for my daily workflow.
 ---
 
 Just about every site I own has been moved to [AppHarbor](https://appharbor.com/). [SideBox](http://www.sidebox.com), [FHA Web Express](http:www.fhawebexpress.com), [CoovTech](http://www.coovtech.com), [Tekfolio](http://www.tekfolio.me) are some examples - It's a must have not just for scale and flexibility, but also for automated deployment.

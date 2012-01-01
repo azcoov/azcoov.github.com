@@ -13,7 +13,7 @@ layout: nil
     {% endfor %}
     {% for post in site.posts %}
     <url>
-        <loc>"http://coovtech.com{{ post.url }}"</loc>
+        <loc>"coovtech.com{{ post.url }}"</loc>
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

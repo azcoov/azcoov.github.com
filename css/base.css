@@ -29,6 +29,17 @@ body{
   background:#fff;
 }
 
+body {
+margin: 0;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: normal;
+line-height: 18px;
+color: gray;
+text-rendering: optimizeLegibility;
+background: white url(https://s3.amazonaws.com/cdn.tekfolio.me/background.jpg) repeat-x;
+}
+
 strong{
   font-weight:bold;
 }
@@ -253,4 +264,5 @@ overflow: auto;
 -moz-border-radius: 3px;
 border-radius: 3px;
 border-image: initial;
+padding:2px;
 }

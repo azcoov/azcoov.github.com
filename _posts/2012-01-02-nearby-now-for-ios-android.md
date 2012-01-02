@@ -41,7 +41,7 @@ Turns out, Xcode is great. It's clean, simple, fast. About the only thing that w
 
 I never enjoyed Silverlight or WPF much. I shipped a WPF app a couple of years ago. I've dabbled a little in Windows Phone stuff. One thing that bugs me, because I'm a little insane, is laying out views with XML. I don't think it's XML that's the problem but rather the horrendous support IDE's have for designing them without doing it directly in markup. It reminds me of the drag-and-drop bloat of asp.net 1.1, where you'd drag a datagrid onto a form and 500 lines of code later you had this incomprehensible chunk of HTML that made no sense. Same sort of thing with XML layouts.
 
-For building basic views (Nearby Now doesn't really have "advanced" views), I tip my hat to Xcode. The storyboard feature is absolutely amazing. I'm a visual person so laying out application flow is a storyboard makes a ton of sense to me. Add in the fact that you can wire-up your transitions right from the storyboard and you've got a winner. I spent a lot less time in Xcode working on the UI than I did in Eclipse. I love seeing a birds-eye-view of the application flow and that's what the storyboard gets you.
+For building basic views (Nearby Now doesn't really have "advanced" views), I tip my hat to Xcode. The storyboard feature is absolutely amazing. I'm a visual person so laying out application flow in a storyboard makes a ton of sense to me. Add in the fact that you can wire-up your transitions right from the storyboard and you've got a winner. I spent a lot less time in Xcode working on the UI than I did in Eclipse. I love seeing a birds-eye-view of the application flow and that's what the storyboard gets you.
 
 ###Resources
 

@@ -22,7 +22,7 @@ So it took twice as long to build the iOS version? Well, yes but there are logic
 *   I had a hell of a time with Xcode and Git. It's probably me but I spent way more time working on messed up merges between my two dev boxes than I should have.
 *   For a .net programmer, writing Java is like writing C# the long way. It's like using Re-Sharper in C# for a year and then having someone take it away from you. My learning curve on Java was much lower than Objective-c. I also took the same Java classes in college that you did so I too can write you the best damn mortgage payment calculator in Java.
 *   Objective-c - I still scratch my head sometimes. Do I bracket? Do I dot? .h files are annoying. However, I'm now a lover of the delegate pattern!
-*   I did not have to spend time designing, wire framing because we already did that for the iPhone and wanted the Android app to be as similar as possible while maintaining platform usability standards.
+*   I did not have to spend time designing or wire framing because we already did that for the iPhone and wanted the Android app to be as similar as possible while maintaining platform usability standards.
 *   [Barry](http://www.twitter.com/azcoastal) built our API and we had all the methods we needed before we started on Android.
 *   I left out a view on Android that we built for iOS. It's a custom view that renders a translucent polygon service area on top of a map based on checkin data for the user, or the user's company. I did this because we had already been working on new features for the iOS app and we felt it was more important to ship the Android app with the new features rather than a nice-to-have view. I'll add that in the next release (famous last words).
 

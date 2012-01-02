@@ -88,6 +88,5 @@ If you are a service professional looking to extend your local reach, Nearby Now
 <a href="http://itunes.apple.com/us/app/nearby-now/id484145186?ls=1&amp;mt=8"><img src="https://s3.amazonaws.com/cdn.nearbynow.co/images/App_Store_Badge.png" alt="Nearby Now for iPhone"></a>
 
 <a href="http://market.android.com/details?id=nearby_now.android">
-  <img src="http://www.android.com/images/brand/60_avail_market_logo2.png"
-       alt="Available in Android Market" />
+  <img src="http://www.android.com/images/brand/60_avail_market_logo2.png" alt="Available in Android Market" />
 </a>

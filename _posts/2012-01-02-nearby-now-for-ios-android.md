@@ -83,7 +83,7 @@ November and December were some of the best times I've had in my software develo
 
 ###Shameless plug
 
-If you are a service professional looking to extend your local reach, Nearby Now was build for you. Both apps are free. Please give them a try:
+If you are a service professional looking to extend your local reach, [Nearby Now](http://www.nearbynow.co) was build for you. Both apps are free. Please give them a try:
 
 <a href="http://itunes.apple.com/us/app/nearby-now/id484145186?ls=1&amp;mt=8"><img src="https://s3.amazonaws.com/cdn.nearbynow.co/images/App_Store_Badge.png" alt="Nearby Now for iPhone"></a>
 

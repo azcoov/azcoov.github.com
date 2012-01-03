@@ -53,7 +53,7 @@ I was a little more careful and thorough with iOS testing. I think I had a built
 
 ###Testflight
 
-[TestflightApp](https://testflightapp.com/) is amazing. If you aren't using it in your apps, you should. Without live crash reports, we are all blind to how our app performs in the wild. To release a build, and watch testers from all over the country open your app, and hit checkpoint after checkpoint, is a great feeling. You also get to observe the different ways people navigate your app. Another cool thing you can do with Testflight is is A/B test. Let's say you want your users to focus on a main function (checking into a location in our case), you can create separate builds that have altered flows designed to see which flow gets users from launch, to that function, the fastest.
+[TestflightApp](https://testflightapp.com/) is amazing. If you aren't using it in your apps, you should. Without live crash reports, we are all blind to how our app performs in the wild. To release a build, and watch testers from all over the country open your app, and hit checkpoint after checkpoint, is a great feeling. You also get to observe the different ways people navigate your app. Another cool thing you can do with Testflight is A/B test. Let's say you want your users to focus on a main function (checking into a location in our case), you can create separate builds that have altered flows designed to see which flow gets users from launch, to that function, the fastest.
 
 Testflight is for iOS only, which is a shame. I hope they are working on an Android and WP7 version. I don't know what their pricing model is going to be but if anyone from that team reads this they should know that I'd pay a lot of money for what they offer.
 

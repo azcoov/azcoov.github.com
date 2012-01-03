@@ -7,7 +7,7 @@ excerpt:
 
 Here's a quick rambling on my experience as a .net dev building [Nearby Now](http://www.nearbynow.co) for iOS and Android. I had a blast, learned a ton, and developed a love hate relationship for other platforms.
 
-I'm going to break this post down into three main sections that I fell are most important to talk about. Before I begin... Please note that while I am a .net developer, I'm an Apple fanboy, and never thought I'd develop for Android, or own an Android device. In other words, I had bias against Android prior to developing for it. Take anything negative I have to say about Android with a grain of salt.
+I'm going to break this post down into three main sections that I feel are most important to talk about. Before I begin... Please note that while I am a .net developer, I'm an Apple fanboy, and never thought I'd develop for Android, or own an Android device. In other words, I had bias against Android prior to developing for it. Take anything negative I have to say about Android with a grain of salt.
 
 Here are the three main discussion points: `Development Experience`, `Testing & Release`, `App & Device Experience`.
 

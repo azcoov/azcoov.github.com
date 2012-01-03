@@ -32,10 +32,10 @@ I remember Uncle Bob calling Visual Studio a Yak...
 
 I thought about that as I was building for these two platforms. I'm not sure what Uncle Bob is using as his IDE these days but there are a couple of things that come to mind.
 
-*   He hasn't used Visual Studio 2010, with NuGet, and all the awesome plugins we have now. The tweet was from 2009. I wish he'd give it another try.
+*   He hasn't used Visual Studio 2010, with [NuGet](http://nuget.org/), and all the awesome plugins we have now. The tweet was from 2009. I wish he'd give it another try.
 *   I'd call the version of Eclipse that I'm using now more Yaky than Visual Studio 2005. That's not good.
 
-Turns out, Xcode is great. It's clean, simple, fast. About the only thing that would be better is if I could have built the app in Sublime. Xcode has improved tremendously since I last used it (about three years ago). 
+Turns out, Xcode is great. It's clean, simple, fast. About the only thing that would be better is if I could have built the app in [Sublime](http://www.sublimetext.com/). Xcode has improved tremendously since I last used it (about three years ago). 
 
 ###XML meh, Storyboard FTW!
 
@@ -45,7 +45,7 @@ For building basic views (Nearby Now doesn't really have "advanced" views), I ti
 
 ###Resources
 
-Both iOS and Android have decent documentation. I ran into issues where I'd find examples, or documentation, that were outdated for the version I'm compiling against. API documentation is becoming irrelevant though. For every stumble I had, StackOverflow came to the rescue. I wish most major API vendors would just move their documentation to the StackExchange platform and let the community sort it all out.
+Both iOS and Android have decent documentation. I ran into issues where I'd find examples, or documentation, that were outdated for the version I'm compiling against. API documentation is becoming irrelevant though. For every stumble I had, [StackOverflow](http://stackoverflow.com/) came to the rescue. I wish most major API vendors would just move their documentation to the [StackExchange platform](http://stackexchange.com/) and let the community sort it all out.
 
 ##Testing & Release
 
@@ -65,7 +65,7 @@ iOS, Android, ClickOnce, pfft. Code signing sucks on every platform it seems. Wh
 
 I think perhaps five of the six days it took me to build the Android version was time spent on me waiting on the emulator to start. It's obnoxious! I didn't go buy an i7, with a boatload of ram and an SD, so that I could sit and wait on things. The Xcode emulator runs. **Fast**.
 
-Where Eclipse shines in my opinion is debugging. I'd prefer a more fluid experience when moving from one perspective to another (like Visual Studio) bug the amount of information available to you, and the different widgets and plugins you can use to help test the device was killer. At times I struggle in iOS to find the source of an app crash. In Eclipse, LogCat is great. I never had an issue tracking anything down.
+Where Eclipse shines in my opinion is debugging. I'd prefer a more fluid experience when moving from one perspective to another (like Visual Studio) but the amount of information available to you, and the different widgets and plugins you can use to help test the device was killer. At times I struggle in iOS to find the source of an app crash. In Eclipse, LogCat is great. I never had an issue tracking anything down.
 
 ##App & Device Experience
 
@@ -77,7 +77,7 @@ The iPhone blows the Droid X away in several ways. It's faster. Transitioning fr
 
 ##What's next?
 
-Oh, I don't know. We have plenty to to. We are building plugins for WordPress, Facebook, and a few other things. We have Apps galore now! Everything we've build so far is for service professionals. We plan on build consumer facing apps too. I suspect Windows Phone 7 might be our next target in the coming months. I don't think a BlackBerry app will see the light of day but that's ok because [Barry](http://www.twitter.com/azcoastal) built a kick-ass mobile version that works well for Black Berry.
+Oh, I don't know. We have plenty to to. We are building plugins for WordPress, Facebook, and a few other things. We have Apps galore now! Everything we've built so far is for service professionals. We plan on building consumer facing apps too. I suspect Windows Phone 7 might be our next target in the coming months. I don't think a BlackBerry app will see the light of day but that's ok because [Barry](http://www.twitter.com/azcoastal) built a kick-ass mobile version that works well for Black Berry.
 
 November and December were some of the best times I've had in my software development career. I love learning new programming languages but to build and ship two new apps, in different programming languages, and to have them used by real people in the wild is an amazing feeling.
 

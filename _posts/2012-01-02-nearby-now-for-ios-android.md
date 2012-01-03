@@ -75,6 +75,8 @@ Aside from the annoying code signing stuff, and throwing some money at Apple & G
 
 The iPhone blows the Droid X away in several ways. It's faster. Transitioning from view-to-view, and scrolling is more fluid. There is never any lag. We know there is [debate as to why that is](http://www.forbes.com/sites/sap/2011/12/09/google-to-ex-intern-on-android-screen-lagginess-youre-wrong/) for Android but, I can say with 100% certainty, there is a problem and it's annoying. I have an iPhone that's loaded up with a ton of crap, and a Droid that has just a few apps on it with little running in the background. You'd think I'd be able to scroll through email, with a little inertia, and have that awesome experience. Instead, what you get is a choppy, laggy experience. I don't know, maybe not everyone notices this. Maybe the big ass screen on the Droid X is enough for most people to deal with the lag. By the way, while I love the retina display on the iPhone, I do like the large screen on the Droid X.
 
+![Nearby Now for iPhone and Android](https://s3.amazonaws.com/assets.coovtech/nearbynowforiphoneandandroid.JPG)
+
 ##What's next?
 
 Oh, I don't know. We have plenty to to. We are building plugins for WordPress, Facebook, and a few other things. We have Apps galore now! Everything we've built so far is for service professionals. We plan on building consumer facing apps too. I suspect Windows Phone 7 might be our next target in the coming months. I don't think a BlackBerry app will see the light of day but that's ok because [Barry](http://www.twitter.com/azcoastal) built a kick-ass mobile version that works well for Black Berry.

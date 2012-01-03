@@ -9,7 +9,7 @@ Here's a quick rambling on my experience as a .net dev building [Nearby Now](htt
 
 I'm going to break this post down into three main sections that I fell are most important to talk about. Before I begin... Please note that while I am a .net developer, I'm an Apple fanboy, and never thought I'd develop for Android, or own an Android device. In other words, I had bias against Android prior to developing for it. Take anything negative I have to say about Android with a grain of salt.
 
-Here are the three main discussion points: `Development Experience`, `Testing & Release`, `App & device experience`.
+Here are the three main discussion points: `Development Experience`, `Testing & Release`, `App & Device Experience`.
 
 ##Development Experience
 

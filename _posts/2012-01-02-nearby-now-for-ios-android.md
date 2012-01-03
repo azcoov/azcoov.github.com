@@ -79,7 +79,7 @@ The iPhone blows the Droid X away in several ways. It's faster. Transitioning fr
 
 ##What's next?
 
-Oh, I don't know. We have plenty to to. We are building plugins for WordPress, Facebook, and a few other things. We have Apps galore now! Everything we've built so far is for service professionals. We plan on building consumer facing apps too. I suspect Windows Phone 7 might be our next target in the coming months. I don't think a BlackBerry app will see the light of day but that's ok because [Barry](http://www.twitter.com/azcoastal) built a kick-ass mobile version that works well for Black Berry.
+Oh, I don't know. We have plenty to do. We are building plugins for WordPress, Facebook, and a few other things. We have Apps galore now! Everything we've built so far is for service professionals. We plan on building consumer facing apps too. I suspect Windows Phone 7 might be our next target in the coming months. I don't think a BlackBerry app will see the light of day but that's ok because [Barry](http://www.twitter.com/azcoastal) built a kick-ass mobile version that works well for Black Berry.
 
 November and December were some of the best times I've had in my software development career. I love learning new programming languages but to build and ship two new apps, in different programming languages, and to have them used by real people in the wild is an amazing feeling.
 

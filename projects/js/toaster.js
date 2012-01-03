@@ -1,4 +1,5 @@
 /* 
+/* 
 Toaster  - a jQuery slidedown alert notifier	
 2011 Billy Coover
 Copyrights are lame!

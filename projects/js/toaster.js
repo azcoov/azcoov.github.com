@@ -70,7 +70,6 @@ www.coovtech.com
 		toasterHtml: '\
 			<div id="toaster-area"> \
 				<div class="toaster-bar-container" style="display:none;"> \
-					<div class="toaster-bar-bkg" style="display: block; height: 22px; "></div> \
 					<div class="toaster-bar" style="display: block; "> \
 						<div class="toaster-bar-contents"> \
 							<div class="toast toast-info" ></div> \

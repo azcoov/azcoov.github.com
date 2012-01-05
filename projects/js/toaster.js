@@ -24,7 +24,7 @@ www.coovtech.com
 	$.toaster = function (elem, options, arg) {
 		if (options && typeof (options) == 'string') {
 			if (options == 'show') {
-			    show(elem, arg, $.toaster.defaults);
+				show(elem, arg, $.toaster.defaults);
 			}
 			return;
 		} else {
@@ -43,16 +43,16 @@ www.coovtech.com
 		function init(elem, arg, options) {
 			$(elem).html($.toaster.defaults.toasterHtml);
 			$(".toaster-bar-contents").css('color', options.color);
-			$(".toaster-bar-container").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
+			$(".toaster-bar-bkg").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
 		}
 
 		function show(elem, arg, options) {
-		    $(".toaster-bar-contents").css('color', options.color);
-		    $(".toaster-bar-container").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
+			$(".toaster-bar-contents").css('color', options.color);
+			$(".toaster-bar-bkg").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
 			$(".toast-info").html(arg);
-			if(options.sticky == true) {
+			if (options.sticky == true) {
 				$(".toaster-bar-container").show('slide', { direction: 'up' }, 1000);
-				$(".toaster-bar-container").click(function() {
+				$(".toaster-bar-container").click(function () {
 					$(".toaster-bar-container").hide('slide', { direction: 'up' }, 1000);
 				});
 			} else {
@@ -70,6 +70,7 @@ www.coovtech.com
 		toasterHtml: '\
 			<div id="toaster-area"> \
 				<div class="toaster-bar-container" style="display:none;"> \
+					<div class="toaster-bar-bkg" style="display: block; height: 22px; "></div> \
 					<div class="toaster-bar" style="display: block; "> \
 						<div class="toaster-bar-contents"> \
 							<div class="toast toast-info" ></div> \

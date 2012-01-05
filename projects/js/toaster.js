@@ -43,12 +43,12 @@ www.coovtech.com
 		function init(elem, arg, options) {
 			$(elem).html($.toaster.defaults.toasterHtml);
 			$(".toaster-bar-contents").css('color', options.color);
-			$(".toaster-bar-bkg").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
+			$(".toaster-bar-container").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
 		}
 
 		function show(elem, arg, options) {
 		    $(".toaster-bar-contents").css('color', options.color);
-		    $(".toaster-bar-bkg").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
+		    $(".toaster-bar-container").css('backgroundColor', options.backgroundColor).css('opacity', options.opacity);
 			$(".toast-info").html(arg);
 			if(options.sticky == true) {
 				$(".toaster-bar-container").show('slide', { direction: 'up' }, 1000);

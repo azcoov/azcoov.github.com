@@ -37,7 +37,7 @@ font-weight: normal;
 line-height: 18px;
 color: gray;
 text-rendering: optimizeLegibility;
-background: white url(https://s3.amazonaws.com/assets.coovtech/white_plaster.png) repeat;
+background: white url(https://s3.amazonaws.com/assets.coovtech/square_bg.png) repeat;
 }
 
 strong{

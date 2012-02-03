@@ -19,7 +19,7 @@ But that doesn't mean I know how to use it...
 
 I wanted to update the URl structure to be user friendly. Something like http://www.sitename.com/webpagename or http://www.sitename.com//blog/posttitle - I know it's limited but the content here is going to stay fairly static except for any new plugins we create, or instructions we update.
 
-So I went into the Wordpress admin site, changed the permilink structure and click save.
+So I went into the Wordpress admin site, changed the permilink structure and clicked save.
 
 ##BAM!!!
 

@@ -7,12 +7,12 @@ excerpt:
 
 I'm doing some screen casts next week and thought a new mic would be helpful. I tested it tonight on Skype and it works great. Not bad for less than $90.
 
-<img src='https://github.com/azcoov/azcoov.github.com/raw/master/images/blueyet1.jpeg' />
+<img src='/images/blueyet1.jpeg' />
 
 It's bigger than I expected but it looks great.
 
-<img src='https://github.com/azcoov/azcoov.github.com/raw/master/images/blueyet2.jpeg' />
+<img src='/images/blueyet2.jpeg' />
 
 Wish me luck on my first ever screen cast. I'll be showing off a killer new SideBox feature that we've been working on the past couple of days.
 
-<img src='https://github.com/azcoov/azcoov.github.com/raw/master/images/blueyet3.jpeg' />
+<img src='/images/blueyet3.jpeg' />

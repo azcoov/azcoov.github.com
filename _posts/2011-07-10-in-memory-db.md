@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Corporate Smug"
+title: "In-Memory SQL DB"
 excerpt:
   When I hear people throw around terms like "web scale", or "acid", I usually face-palm
 ---

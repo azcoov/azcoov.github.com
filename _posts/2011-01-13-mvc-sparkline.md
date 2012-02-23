@@ -29,7 +29,7 @@ https://gist.github.com/790548
 
 ##Step 3 – Run it
 
-<img src="http://chart.apis.google.com/chart?cht=lc&amp;chf=bg,s,ffffff&amp;cgh=0,50,1,0&amp;chds=1,9&amp;chs=150x30&amp;chd=t:1,3,5,2,7,9,4&amp;chco=999999&amp;chls=1,1,0&amp;chm=o,990000,0,20,4&amp;chxt=r,x,y&amp;chxs=0,990000,11,0,_|1,990000,1,0,_|2,990000,1,0,_&amp;chxl=0:|4|1:||2:||" _mce_src="http://chart.apis.google.com/chart?cht=lc&amp;chf=bg,s,ffffff&amp;cgh=0,50,1,0&amp;chds=1,9&amp;chs=150x30&amp;chd=t:1,3,5,2,7,9,4&amp;chco=999999&amp;chls=1,1,0&amp;chm=o,990000,0,20,4&amp;chxt=r,x,y&amp;chxs=0,990000,11,0,_|1,990000,1,0,_|2,990000,1,0,_&amp;chxl=0:|4|1:||2:||" alt="sparkline">
+<img src="http://chart.apis.google.com/chart?cht=lc&amp;chf=bg,s,bbbbbb&amp;cgh=0,50,1,0&amp;chds=1,9&amp;chs=150x30&amp;chd=t:1,3,5,2,7,9,4&amp;chco=999999&amp;chls=1,1,0&amp;chm=o,990000,0,20,4&amp;chxt=r,x,y&amp;chxs=0,990000,11,0,_|1,990000,1,0,_|2,990000,1,0,_&amp;chxl=0:|4|1:||2:||" _mce_src="http://chart.apis.google.com/chart?cht=lc&amp;chf=bg,s,ffffff&amp;cgh=0,50,1,0&amp;chds=1,9&amp;chs=150x30&amp;chd=t:1,3,5,2,7,9,4&amp;chco=999999&amp;chls=1,1,0&amp;chm=o,990000,0,20,4&amp;chxt=r,x,y&amp;chxs=0,990000,11,0,_|1,990000,1,0,_|2,990000,1,0,_&amp;chxl=0:|4|1:||2:||" alt="sparkline">
 
 That’s it. It really is that simple… Maybe
 

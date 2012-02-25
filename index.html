@@ -4,19 +4,21 @@ head_content:
   <link rel="alternate" type="application/atom+xml" href="http://coovtech.com/feed/" />
 ---
 
+<h1 itemprop='name'>CoovTech, a blog by Billy Coover</h1>
+
 <div class="listing">
 {% for post in site.posts %}
   {% if post.type == 'link' %}
     <div class="post other link">
       <span class="icon" title="This is a link elsewhere"></span>
-      <h2 itemprop="name"><a href="{{ post.link }}">{{ post.title }}</a></h2>
-      <p itemprop='description'>{{ post.content }}</p>
+      <h2 ><a href="{{ post.link }}">{{ post.title }}</a></h2>
+      <p >{{ post.content }}</p>
     </div>
   {% else %}
     <div class="post">
       <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
-      <h2 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p itemprop='description'>{{ post.excerpt }} <a href="{{ post.url }}" class="continue">More...</a></p>
+      <h2 ><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p >{{ post.excerpt }} <a href="{{ post.url }}" class="continue">More...</a></p>
     </div>
   {% endif %}
 {% endfor %}

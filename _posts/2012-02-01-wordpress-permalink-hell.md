@@ -7,7 +7,9 @@ excerpt:
 
 *disclaimer: I'm a wordpress noob, which explains why what you are about to read below happened*
 
-So I just updated a [wordpress site](http://partners.nearbynow.co/) that I created for the [Nearby Now](http://www.nearbynow.co) plugins site. It's just a basic site we put together to feature some of the various plugins we've built for Wordpress and Facebook, and to show examples of those plugins in action. I made a change that screwed things up for about an hour. More on that below.
+<p itemprop='description'>
+	So I just updated a wordpress site that I created for the Nearby Now plugins. It's just a basic site we put together to feature some of the various plugins we've built for Wordpress and Facebook, and to show examples of those plugins in action. I made a change that screwed things up for about an hour.
+</p>
 
 We've got a few decent pages in there that feature the plugins with examples and installation instructions. I'd call it done, save a style upgrade, for what we needed it for. 
 

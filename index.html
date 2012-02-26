@@ -10,8 +10,6 @@ head_content:
 <div class="listing">
 {% for post in site.posts %}
 
-  {{ post.link }}
-
   {% if post.type == 'link' %}
     <div class="post other link">
       <span class="icon" title="This is a link elsewhere"></span>
@@ -22,7 +20,7 @@ head_content:
     <div class="post">
       <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
       <h2 ><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p >{{ post.excerpt }} <a href="{{ post.url }}" class="continue">More...</a><div class="g-plusone" data-size="small" data-href="{{ post.link }}"></div></p>
+      <p >{{ post.excerpt }} <a href="{{ post.url }}" class="continue">More...</a><div class="g-plusone" data-size="small" data-href="{{ post.url }}"></div></p>
     </div>
   {% endif %}
 {% endfor %}

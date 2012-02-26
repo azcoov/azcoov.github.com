@@ -9,7 +9,7 @@ head_content:
 
 <div class="listing">
 {% for post in site.posts %}
-
+  <p>http://coovtech.com{{ post.url }}</p>
   {% if post.type == 'link' %}
     <div class="post other link">
       <span class="icon" title="This is a link elsewhere"></span>

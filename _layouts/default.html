@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="http://schema.org/Blog">
 <head>
 	<title>
 	  {% if page.title %}
@@ -8,6 +8,9 @@
 	    CoovTech
 	  {% endif %}
 	</title>
+  <meta itemprop="name" content="Billy Coover">
+  <meta itemprop="description" content="Personal website of Billy Coover, Software Engineer from Arizona">
+  <meta itemprop="image" content="http://www.gravatar.com/avatar/a0c8167927cf85a30a5d353828a59fc9.png?s=100">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Billy Coover" />
   <meta name="copyright" content="Billy Coover" />
@@ -40,7 +43,7 @@
   </script>
 
 </head>
-<body itemscope='' itemtype="http://schema.org/Blog">
+<body>
   <div class="sidebar">
     <a href="/">
       <img src="http://www.gravatar.com/avatar/a0c8167927cf85a30a5d353828a59fc9.png?s=100" height="100" width="100" class="avatar">
@@ -64,10 +67,6 @@
     <a href="http://stackexchange.com/users/23526">
       <img src="http://stackexchange.com/users/flair/23526.png" width="208" height="58" alt="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites">
     </a>
-
-    <!--a rel="author" href="https://profiles.google.com/billycoover">
-      <img src="http://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16">
-    </a-->
 
     <div class="g-plusone" data-size="medium"></div>
   </div>

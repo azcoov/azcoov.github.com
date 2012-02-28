@@ -20,7 +20,7 @@ layout: nil
    {% if post.type == 'link' %}
      <link href="{{ post.link }}" />
    {% else %}
-     <link href="http://coovtech.com{{ post.url }}" />
+     <link href="http://coovtech.com{{ post.url }}/" />
    {% endif %}
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://coovtech.com{{ post.id }}</id>

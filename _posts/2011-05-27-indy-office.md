@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building the same app for iOS and Android"
+title: "Indy Office"
 excerpt:
   I need to work on the lighting in the office. I like the office dark some of the time, but it is difficult to bring in natrual light when I want it.
 ---

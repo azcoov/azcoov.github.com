@@ -2,10 +2,10 @@
 layout: post
 title: "Quick rant on Bootstrap"
 excerpt:
-  Tekfolio has been a side-project that I care a lot about. It's also a playground for learning and testing new ideas. I've re-written Tekfolio from the ground-up a few times now (in MVC, Rails, Backbone). As a programmer, this was time well spent on something I think I'm great at (server-side shenanigans), and not something I suck at (UI design). Bootstrap allow me to focus on awesome functionality while keeping the site looking respectable.
+  [Tekfolio](http://www.tekfolio.me) has been a side-project that I care a lot about. It's also a playground for learning and testing new ideas. I've re-written Tekfolio from the ground-up a few times now (in MVC, Rails, Backbone). As a programmer, this was time well spent on something I think I'm great at (server-side shenanigans), and not something I suck at (UI design). Bootstrap allow me to focus on awesome functionality while keeping the site looking respectable.
 ---
 
-Tekfolio was built on bootstrap. What does that mean?
+[Tekfolio](http://www.tekfolio.me) was built on bootstrap. What does that mean?
 
 Bootstrap is a highly polished set of UI templates, CSS, and components that help developers rapidly build great looking websites without having to spend a ton of time on UI design.
 

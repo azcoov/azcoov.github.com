@@ -5,4 +5,14 @@ layout: default
 <h1 itemprop="name">{{ page.title }}</h1>
 <p style="display:none;" itemprop="description" >{{ page.excerpt }}" </p>
 {{ content }}
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="http://coovtech.com{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 <div class="g-plusone" data-size="medium" data-href="http://coovtech.com{{ page.url }}/">

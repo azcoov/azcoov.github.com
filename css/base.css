@@ -24,8 +24,8 @@ a img{ border:none; }
 .clearfix {display: block;}
 
 body{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size:13px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
+  font-size:15px;
   background:#fff;
 }
 

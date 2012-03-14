@@ -23,21 +23,15 @@ a img{ border:none; }
 .clearfix {display:inline-block;}
 .clearfix {display: block;}
 
-body{
-  font-family: "Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
-  font-size:15px;
-  background:#fff;
-}
-
 body {
 margin: 0;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 13px;
+font-family: "Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
+font-size: 15px;
 font-weight: normal;
 line-height: 18px;
 color: gray;
 text-rendering: optimizeLegibility;
-background: white url(https://s3.amazonaws.com/assets.coovtech/square_bg.png) repeat;
+background: #fff url(https://s3.amazonaws.com/assets.coovtech/square_bg.png) repeat;
 }
 
 strong{

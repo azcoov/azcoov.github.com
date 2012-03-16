@@ -2,9 +2,7 @@
 layout: post
 title: "iPhone GPS location with MonoTouch"
 excerpt:
-  My first ever hack-a-thon was a failure. Why? Because the battery on my laptop ran out after about 40 minutes... I suck.
-
-Here was the challenge... We were trying to come up with a way for customers to start using [SideBox](http://www.sidebox.com/) and feeding hyper-local search, even if our full-service product is not complete/polished, or customers weren't ready to take the plunge.
+  My first ever hack-a-thon was a failure. Why? Because the battery on my laptop ran out after about 40 minutes... I suck. Here was the challenge... We were trying to come up with a way for customers to start using [SideBox](http://www.sidebox.com/) and feeding hyper-local search, even if our full-service product is not complete/polished, or customers weren't ready to take the plunge.
 ---
 
 My first ever hack-a-thon was a failure. Why? Because the battery on my laptop ran out after about 40 minutes... I suck.

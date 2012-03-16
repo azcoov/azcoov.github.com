@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Happy employees make for happy customers"
+title: "Priority Inbox, hurray"
 excerpt:
   This just in... I moved to gmail's priority inbox. We haven't officially moved to the Google app engine, but we were given some test accounts to work with. So I just moved everything over. It's very simple to do and you won't regret it. Here is how I moved over in what seems to be a very seamless transition so far  
 ---

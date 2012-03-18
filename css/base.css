@@ -61,6 +61,8 @@ hr{
 img {
   max-width: 500px;
   max-height: 500px;
+  padding: 3px;
+  border: 1px solid #EEE;
 }
 
 .sidebar{

@@ -25,12 +25,12 @@ a img{ border:none; }
 
 body {
 margin: 0;
-font-family: "Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
+font-family: "museo-sans-1","museo-sans-2","Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
 font-size: 15px;
 font-weight: 300;
 line-height: 18px;
 letter-spacing: 1.1px;
-color: #454441;
+color: #696969;
 text-rendering: optimizeLegibility;
 background: #fff url(https://s3.amazonaws.com/assets.coovtech/square_bg.png) repeat;
 }

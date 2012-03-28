@@ -25,7 +25,7 @@ a img{ border:none; }
 
 body {
 margin: 0;
-font-family: "Open Sans","Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
+font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 font-size: 13px;
 font-weight: 300;
 line-height: 18px;
@@ -74,6 +74,7 @@ img {
   float:left;
   padding-bottom:50px;
   width:760px;
+  font-size: 15px;
 }
 
 ul.nav{

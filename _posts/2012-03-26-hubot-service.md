@@ -2,7 +2,7 @@
 layout: post
 title: "A Hubot inspired notification service"
 excerpt:
-  
+  I dislike business reporting. I've been designing and building enterprise level business intelligence reports for the last seven years are so. I've never liked writing reports. Perhaps it is the formality of the report. Perhaps I wrote too many reports that I slaved over only to find out that the business folks either weren't running them, or didn't know why they needed them.
 ---
 
 I'm a big fan of [Hubot](http://hubot.github.com/). If you have been interested in learning [CoffeeScript](http://coffeescript.org/), or [Node.js](http://nodejs.org/), I recommend getting your own Hubot and tinkering with the source code. Hubut does a few fun and interesting things. For example, you can ask Hubot to mustache someone and, assuming that person has an online presence, you'll usually something good back like this:

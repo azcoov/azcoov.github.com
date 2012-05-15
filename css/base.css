@@ -24,6 +24,7 @@ a img{ border:none; }
 .clearfix {display: block;}
 
 body {
+	/*
 margin: 0;
 font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 font-size: 13px;
@@ -33,6 +34,14 @@ letter-spacing: 1.1px;
 color: #696969;
 text-rendering: optimizeLegibility;
 background: #fff url(https://s3.amazonaws.com/assets.coovtech/bg.gif) repeat;
+*/
+
+color: #222;
+font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 300;
+font-size: 17px;
+line-height: 1.5em;
+padding: 0 10px;
 }
 
 strong{

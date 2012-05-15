@@ -82,10 +82,8 @@ img {
 .main{
   padding-bottom:50px;
   width:760px;
-  font-size: 17px;
   margin:0 auto;
   padding:0;
-  color:#444;
 }
 
 ul.nav{
@@ -104,11 +102,6 @@ ul.nav li a{
 }
 ul.nav li a:hover{
   color:#000;
-}
-
-.sidebar p{
-  color:#666;
-  line-height:1.5;
 }
 
 .avatar{

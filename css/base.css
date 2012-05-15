@@ -80,10 +80,11 @@ img {
   width:200px;
 }
 .main{
-  float:left;
   padding-bottom:50px;
   width:760px;
   font-size: 15px;
+  margin:0;
+  padding:0;
 }
 
 ul.nav{

@@ -264,3 +264,12 @@ border-radius: 3px;
 border-image: initial;
 padding:2px;
 }
+
+#copyright {
+display: block;
+color: #888;
+text-align: right;
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 600;
+}

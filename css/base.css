@@ -7,6 +7,12 @@ li, dd { margin-left:5%; }
 fieldset { padding: .5em; }
 select option{ padding:0 5px; }
 
+h1, h2, h3, h4, h5, h6 {
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 700;
+}
+
 .access{ display:none; }
 .clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden; }
 a{ outline:none; }
@@ -23,21 +29,25 @@ a img{ border:none; }
 .clearfix {display:inline-block;}
 .clearfix {display: block;}
 
-body{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size:13px;
-  background:#fff;
-}
-
 body {
+	/*
 margin: 0;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 font-size: 13px;
-font-weight: normal;
+font-weight: 300;
 line-height: 18px;
-color: gray;
+letter-spacing: 1.1px;
+color: #696969;
 text-rendering: optimizeLegibility;
-background: white url(https://s3.amazonaws.com/assets.coovtech/square_bg.png) repeat;
+background: #fff url(https://s3.amazonaws.com/assets.coovtech/bg.gif) repeat;
+*/
+
+color: #222;
+font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 300;
+font-size: 17px;
+line-height: 1.5em;
+padding: 0 10px;
 }
 
 strong{
@@ -45,7 +55,7 @@ strong{
 }
 
 a{
-  color:#2382c8;
+  color:#1BA1E2;
   text-decoration:none;
 }
 a:visited{
@@ -64,8 +74,10 @@ hr{
 }
 
 img {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 550px;
+  max-height: 550px;
+  padding: 3px;
+  border: 1px solid #EEE;
 }
 
 .sidebar{
@@ -74,9 +86,11 @@ img {
   width:200px;
 }
 .main{
-  float:left;
   padding-bottom:50px;
-  width:560px;
+  width:760px;
+  margin:0 auto;
+  padding:0;
+  margin-top:20px;
 }
 
 ul.nav{
@@ -95,11 +109,6 @@ ul.nav li a{
 }
 ul.nav li a:hover{
   color:#000;
-}
-
-.sidebar p{
-  color:#666;
-  line-height:1.5;
 }
 
 .avatar{
@@ -135,7 +144,7 @@ ul.nav li a:hover{
 }
 
 .listing .post .continue{
-  font-weight:bold;
+  /*font-weight:bold;*/
 }
 
 .listing .post.other{
@@ -153,14 +162,10 @@ ul.nav li a:hover{
   margin-bottom:0;
 }
 
-.main{
-  color:#444;
-  line-height:21px;
-}
-
 .main p.date{
   color:#666;
   margin:20px 0 -20px 0;
+  font-size: .9em;
 }
 
 h1{
@@ -265,4 +270,13 @@ overflow: auto;
 border-radius: 3px;
 border-image: initial;
 padding:2px;
+}
+
+#copyright {
+display: block;
+color: #888;
+text-align: right;
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 600;
 }

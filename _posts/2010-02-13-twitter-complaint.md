@@ -1,0 +1,20 @@
+---
+layout: post
+title: "The twitter complaint card"
+excerpt:
+  Raise your hand if you like to vent out loud? I sure do and so do millions of twitter users. I've tried to be cautious with what I vent about on twitter because it's public and permanent. You don't want your foul mouth rants following you where ever you go. Sometimes, though, you get frustrated enough that all bets are off and the venting flows freely.
+---
+
+Raise your hand if you like to vent out loud? I sure do and so do millions of twitter users. I've tried to be cautious with what I vent about on twitter because it's public and permanent. You don't want your foul mouth rants following you where ever you go. Sometimes, though, you get frustrated enough that all bets are off and the venting flows freely.
+
+That was the case for me a couple of weeks ago when my recently upgraded Qwest connection went down. For about two days it was randomly disconnecting until finally it just died. Both my wife and I work from home and we go to school full time. Our internet connection is just as valuable to us as water and food. Well, not really, I'm just trying to be dramatic.
+
+<img src="https://s3.amazonaws.com/assets.coovtech/Picture+1.jpg" />
+
+I posted the following message on twitter in frustration with my internet connection "#qwest Internet is down. I wish they would tweet or email stating such...". Four minutes after sending that tweet I received a tweet back from @TalkToQwest asking for my billing number. A couple of tweets later I have a phone call from a tech guy at Qwest. When I say tech guy, I mean someone who "knows" tech like I know software. It's almost as if the [Fizzbin](http://www.hanselman.com/blog/FizzBinTheTechnicalSupportSecretHandshake.aspx) keyword was spoken for me via twitter.
+
+After my quick tech call, I had a tech person at my door within a day or two and they fixed the issue. No annoying tech call for me where I had to talk to 20 different people and tell my story ten times over. I didn't waste hours of my life trying to solve the problem myself. I simply vented using twitter as my audience and it payed dividends for me.
+
+I'm curious why a company would monitor twitter and provide great customer service on a social network and still maintain such horrible customer service standards via their call-in numbers or normal website. + 1 for qwest on the social front. -1 for paying someone real money to do this and not focus on your other major areas of customer service.
+
+While I'm on this topic, I thought I'd mention my hatred for Papa Johns. Not the food; the food is great. I recieved an email from them with a coupon. While my wife and I were running errands with the offspring, I decided to order from them via this coupon. I clicked the coupon and tried to pull up the phone number of the nearest resturant. No dice, their zip code finder could not find me even though I was standing in the same strip mall that the resturant sits in. So, I used Google maps on my iPhone to get their phone number. I placed my order on the phone with them and gave them the coupon. They rejected and said that it was a website only coupon. Are you freaking kidding me? So I went to the website and tried to order my pizza. They tout a mobile optomized website, one that I don't need because I rock an iPhone but hey, mobile optomized means fast and that is exactly what I wanted. Imagine my surprise to find out that their registration process is more difficult than applying for a freaking credit card. You call that mobile optimized? Why on earth would you serve up a giant registration for to a potential customer on a mobile device? Needless to say, I opened my big mouth on twitter again "Papa Johns has the WORST mobile experience. Mobile should be fast & fluid. No long a$$ registration process. #fail". Unfortunately for me, Papa Johns does not have a dedicated twitza (that's a pizza twitter person) to review negative comments about them.

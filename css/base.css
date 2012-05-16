@@ -7,6 +7,12 @@ li, dd { margin-left:5%; }
 fieldset { padding: .5em; }
 select option{ padding:0 5px; }
 
+h1, h2, h3, h4, h5, h6 {
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 700;
+}
+
 .access{ display:none; }
 .clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden; }
 a{ outline:none; }

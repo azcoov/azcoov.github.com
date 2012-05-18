@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Blog">
 <head>
-  <title>CoovTech 404</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>
+	  {% if page.title %}
+	    {{ page.title }} &mdash; CoovTech
+	  {% else %}
+	    CoovTech
+	  {% endif %}
+	</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Billy Coover" />
   <meta name="copyright" content="Billy Coover" />
   <meta name="description" content="Personal website of Billy Coover, Software Engineer from Arizona" />
@@ -11,59 +17,64 @@
   <link rel="author" href="https://profiles.google.com/110690218781759841805" />
   <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me"> 
   <link rel="me" type="text/html" href="http://twitter.com/billycoover">
-  <meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
-  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-  <link rel="stylesheet" href="http://coovtech.com/css/base.css" type="text/css" />
+	<meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+	<link rel="stylesheet" href="http://coovtech.com/css/base.css" type="text/css" />
   <link href="/images/favicon.ico" rel="icon" type="image/x-png" />
   <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
   <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-5482014-9']);
-    _gaq.push(['_trackPageview']);
+  	var _gaq = _gaq || [];
+  	_gaq.push(['_setAccount', 'UA-5482014-9']);
+  	_gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	(function() {
+    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
         po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 
-    })();
+  	})();
   </script>
 
 </head>
 <body>
-  <div class="sidebar">
-    <a href="/">
-      <img src="http://www.gravatar.com/avatar/a0c8167927cf85a30a5d353828a59fc9.png?s=100" height="100" width="100" class="avatar">
-    </a>
-    <br />
-    <span>Billy Coover</span><br />
-    <span>Software Engineer in Mesa, AZ</span>
 
-    <ul class="nav">
-      <li><a href="http://coovtech.com">Home</a></li>
-      <li><a rel="me" href="https://plus.google.com/110690218781759841805/about">About</a></li>
-      <li><a href="http://www.tekfolio.me/billy">Tech Portfolio</a></li>
-      <li><a href="http://www.sidebox.com">SideBox</a></li>
-      <li><a href="http://www.nearbynow.co">Nearby Now</a></li>
-      <li><a href="http://photos.coovtech.com/">InstaCoov</a></li>
-    </ul>
-
-    <a href="https://twitter.com/billycoover" class="twitter-follow-button" data-show-count="false">Follow</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-    </script>
-    <a href="http://stackexchange.com/users/23526">
-      <img src="http://stackexchange.com/users/flair/23526.png" width="208" height="58" alt="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </a>
-
-    <div class="g-plus" data-href="https://plus.google.com/110690218781759841805" data-width="208" data-height="69" ></div>
-
-  </div>
-
-  <div class="content" id="post">
+  <div class="main">
+  
+    <div style="float:left; width: 100px;">
+      <a href="/">
+      	<img src="http://www.gravatar.com/avatar/9bb02ec020f37fd161b8a7f9e0823ef2.png?s=75" height="75" width="75" class="avatar" >
+      </a>
+    </div>
+    <div style="float:left; width: 400px;">
+    	<span id="billy">Billy</span><br />
+    	<span id="coover">Coover</span><br />
+    	<span>Software Engineer, Co-founder & CTO of <a href="http://www.sidebox.com">SideBox</a></span><br />
+    	<div class="social">
+    	  <a href="https://twitter.com/billycoover" id="twitter">
+            <img src="https://s3.amazonaws.com/assets.coovtech/twitter.png" alt="twitter" title="@billycoover on Twitter" height="20" width="20">
+          </a>
+          <a href="https://github.com/azcoov" id="github">
+            <img src="https://s3.amazonaws.com/assets.coovtech/github.png" alt="github" title="@azcoov on GitHub" height="20" width="20">
+          </a>
+    	  <a href="http://plus.google.com/110690218781759841805" id="googleplus">
+            <img src="https://s3.amazonaws.com/assets.coovtech/google_plus.png" alt="googleplus" title="@billycoover on Google+" height="20" width="20">
+          </a>
+          <a href="http://www.linkedin.com/in/billycoover" id="linkedin">
+            <img src="https://s3.amazonaws.com/assets.coovtech/lnked_in.png" alt="linkedin" title="@billycoover on LinkedIn" height="20" width="20">
+          </a>
+          <a href="/feed" id="rss">
+            <img src="https://s3.amazonaws.com/assets.coovtech/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="20" width="20">
+          </a>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <hr />
+  
+    <div class="content" id="post">
     <h1>Darg. I couldn't find the page you are looking for :(</h1>
 
     <p>No worries, all my posts are <a href="/">on this page</a>. You should be a click away from finding the epic post you were looking for.</p>
@@ -71,7 +82,19 @@
     <p>Can't find it? Meh. <a href="https://plus.google.com/110690218781759841805/about">Ping me</a>.</p>
 
     <p>Billy Coover</p>
-    </div>
-
+</div>
+    
+<br />
+    <a href="https://twitter.com/billycoover" class="twitter-follow-button" data-show-count="false">Follow</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+<br />
+  
+    <br />
+    <small id="copyright">© 2012 CoovTech, LLC</small>	
+  </div>
+  
+  
+  
 </body>
 </html>

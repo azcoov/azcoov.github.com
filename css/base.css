@@ -199,6 +199,9 @@ h4{
 }
 
 #coover {
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 700;
 padding-left: 1px;
 font-size: 23px;
 letter-spacing: 5px;
@@ -206,6 +209,9 @@ color: #666;
 }
 
 #billy {
+text-transform: uppercase;
+font-family: proxima-nova-extra-condensed, 'Arial Narrow', sans-serif;
+font-weight: 700;
 font-size: 17px;
 font-weight: bold;
 letter-spacing: 1px;

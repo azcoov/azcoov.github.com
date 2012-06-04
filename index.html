@@ -18,7 +18,7 @@ layout: default
     <div class="post">
       <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
       <h2 ><a href="http://coovtech.com{{ post.url }}/">{{ post.title }}</a></h2>
-      <p >{{ post.excerpt | markdownify }}<a href="http://coovtech.com{{ post.url }}/" class="continue">More...</a> <div class="g-plusone" data-size="small" data-href="http://coovtech.com{{ post.url }}/"></div></p>
+      <p >{{ post.excerpt | markdownify }}<a href="http://coovtech.com{{ post.url }}/" class="continue">More...</a> </p>
     </div>
   {% endif %}
 {% endfor %}

@@ -154,7 +154,7 @@ section#sidebar {
   left: 0;
   bottom: 0;
   right: auto;
-  min-height: 690px;
+  min-height: 900px;
   z-index: 0;
   border:none;
 }
@@ -162,7 +162,6 @@ section#sidebar {
 figure#ct_logo {
   position: absolute;
   left: 50px;
-  top: 20px;
   width: 120px;
   height: 120px;
 }
@@ -176,8 +175,6 @@ figure#ct_logo div.logo {
   width: 120px;
   height: 120px;
   left: 50%;
-  top: 50%;
-  margin-top: -42px;
   margin-left: -42px;
   background-size: 100%;
   -moz-background-size: 100%;
@@ -193,7 +190,12 @@ section#sidebar h1, section#sidebar h2, ul#linkbar {
 }
 
 div.author_details {
-  margin-top:180px;
+  margin-top:100px;
+  min-height:800px;
+}
+
+div.author_details p {
+  padding: 3px;
 }
 
 div.author_details h2 {
@@ -313,7 +315,7 @@ ul.nav li a:hover{
 }
 
 .listing .post .continue{
-  /*font-weight:bold;*/
+  font-size:.8em;
 }
 
 .listing .post.other{
@@ -352,18 +354,18 @@ ul.nav li a:hover{
 
 pre{
   margin: 1em 0;
-font-size: 12px;
-background-color: #EEE;
-border: 1px solid #DDD;
-padding: 5px;
-color: #444;
-overflow: auto;
--webkit-box-shadow: rgba(0,0,0,0.07) 0 1px 2px inset;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-border-image: initial;
-padding:2px;
+  font-size: 12px;
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  padding: 5px;
+  color: #444;
+  overflow: auto;
+  -webkit-box-shadow: rgba(0,0,0,0.07) 0 1px 2px inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-image: initial;
+  padding:2px;
 }
 .btn-success:visited {
   color: #FFFFFF;
@@ -377,4 +379,7 @@ div.instagram-placeholder, .instagramz {
 }
 .instapaid {
   font-size: .7em;
+}
+.twitter {
+  left:-3px;
 }

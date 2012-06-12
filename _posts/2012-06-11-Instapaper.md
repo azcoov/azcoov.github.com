@@ -4,7 +4,7 @@ title: "Instapaper lives on"
 excerpt:
   I read a couple tech blogs today talk about the new feature of mobile Safari that allows for off-line reading and how it's an Instapaper killer. The comments are usually funny and range from "iOS sucks", to "you should never develop a popular app because Apple will steal your idea", to "that's why I'm on Android".
 
-  Here's the deal. You can't kill Instapaper just by adding off-line reading support. How nieve.
+  Here's the deal. You can't kill Instapaper just by adding off-line reading support. How naive.
 --- 
 
 I read a couple tech blogs today talk about the new feature of mobile Safari that allows for off-line reading and how it's an Instapaper killer. The comments are usually funny and range from "iOS sucks", to "you should never develop a popular app because Apple will steal your idea", to "that's why I'm on Android".

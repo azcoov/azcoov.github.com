@@ -3,6 +3,7 @@ layout: post
 title: "Building the same app for iOS and Android"
 excerpt:
   Here's a quick rambling on my experience as a .net dev building [Nearby Now](http://www.nearbynow.co) for iOS and Android. I had a blast, learned a ton, and developed a love hate relationship for other platforms.
+hn: http://news.ycombinator.com/item?id=3418137  
 ---
 
 Here's a quick rambling on my experience as a .net dev building [Nearby Now](http://www.nearbynow.co) for iOS and Android. I had a blast, learned a ton, and developed a love hate relationship for other platforms.

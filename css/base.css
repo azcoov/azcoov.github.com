@@ -237,8 +237,11 @@ section#posts {
 }
 
 article {
-  padding: 40px;
   padding-left: 50px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+
   border-top: 1px solid 
   #E2E2E2;
   position: relative;
@@ -300,7 +303,7 @@ ul.nav li a:hover{
   margin-top:0px;
 }
 
-.listing .post p.date{
+.listing .post p.date, p.date{
   margin:0 0 -1px 0;
 }
 

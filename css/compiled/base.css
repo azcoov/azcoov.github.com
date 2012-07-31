@@ -88,7 +88,7 @@ body {
   line-height: 1.5em;
 }
 ul {
-  list-style-type: none;
+  list-style-type: circle;
   list-style-position: outside;
 }
 strong {
@@ -282,8 +282,8 @@ article {
   position: relative;
   overflow: hidden;
 }
-article p {
-  width: 600px;
+article p, article ul {
+  width: 800px;
 }
 .main {
   padding-bottom: 50px;

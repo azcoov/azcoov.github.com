@@ -38,7 +38,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: circle;
   list-style-position: outside;
 }
 
@@ -305,6 +305,7 @@ ul.nav li a:hover{
 
 .listing .post p.date, p.date{
   margin:0 0 -1px 0;
+  color: #CACACA;
 }
 
 .listing .post h2{

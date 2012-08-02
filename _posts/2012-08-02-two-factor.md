@@ -2,7 +2,8 @@
 layout: post
 title: "The Problem with Two-Factor Authentication"
 excerpt:
-  As an IT professional who is concerned with security, I like this model. It makes it much more difficult for unauthorized users to access the system/network/app, etc and that's what I want. As a user, I hate this model!
+  As an IT professional who is concerned with security, I like this model. It makes it much more difficult for unauthorized users to access the system/network/app, etc and that's what I want. As a user, I hate this model!	
+hn: http://news.ycombinator.com/item?id=4330845  
 ---
 
 I was following along with John Sheehan's thoughts on [password-less authentication](http://john-sheehan.com/post/28437774039/is-it-time-for-password-less-login) and two-factor authentication came up today with a [post by TechCrunch](http://techcrunch.com/2012/08/02/y-combinator-backed-startup-authy-wants-to-help-you-prevent-a-dropbox-style-security-snafu/) about [Authy](https://www.authy.com/).

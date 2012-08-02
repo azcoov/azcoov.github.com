@@ -7,7 +7,7 @@ excerpt:
 
 I was following along with John Sheehan's thoughts on [password-less authentication](http://john-sheehan.com/post/28437774039/is-it-time-for-password-less-login) and two-factor authentication came up today with a [post by TechCrunch](http://techcrunch.com/2012/08/02/y-combinator-backed-startup-authy-wants-to-help-you-prevent-a-dropbox-style-security-snafu/) about [Authy](https://www.authy.com/).
 
-Two-Factor authentication is a great security model. There are various flavors of two-factor authentication but the Authy concept specifically relates to sending a short token to you via an Authy app, or SM.
+Two-Factor authentication is a great security model. There are various flavors of two-factor authentication but the Authy concept specifically relates to sending a short token to you via an Authy app, or SMS.
 
 I use a two-factor authentication system every day for some contracting work I do. It's a combination of VPN and two-factor auth. When I want to connect to the remote network, I start by connecting VPN. I'm prompted with a required token. To get that token, I have to open an iPhone app which will render a new token. I manually type that token into the VPN token dialog, then I'm prompted for my password with another dialog. When I supply that, I'm authenticated!
 

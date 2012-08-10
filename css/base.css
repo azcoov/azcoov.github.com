@@ -154,9 +154,35 @@ section#sidebar {
   left: 0;
   bottom: 0;
   right: auto;
-  min-height: 900px;
+  min-height: 1500px;
   z-index: 0;
   border:none;
+  height: 1500px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: -50px;
+  margin-bottom: 0.8rem;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 200px;
+}
+
+.avatar > a {
+  width: 120px;
+  height: 120px;
+}
+
+.avatar > a {
+  display: block;
+  border-radius: 200px;
+  background-size: cover;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
 }
 
 figure#ct_logo {
@@ -276,17 +302,6 @@ ul.nav li a{
 }
 ul.nav li a:hover{
   color:#000;
-}
-
-.avatar{
-  margin-left: 2px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 15px #ccc;
-  opacity: .8;
-}
-.avatar:hover{
-  opacity: 1;
 }
 
 .post {

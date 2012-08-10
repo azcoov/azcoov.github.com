@@ -203,30 +203,38 @@ section#sidebar {
   left: 0;
   bottom: 0;
   right: auto;
-  min-height: 900px;
+  min-height: 1500px;
   z-index: 0;
-  border: none;
+  border:none;
+  height: 1500px;
 }
-figure#ct_logo {
-  position: absolute;
-  left: 50px;
+
+.avatar {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 65px;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 200px;
+}
+
+.avatar > a {
   width: 120px;
   height: 120px;
 }
-figure#ct_logo div.logo {
-  background-size: 100%;
+
+.avatar > a {
+  display: block;
+  border-radius: 200px;
+  background-size: cover;
+  background-position: -13px 0px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
 }
-figure#ct_logo div.logo {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  left: 50%;
-  margin-left: -42px;
-  background-size: 100%;
-  -moz-background-size: 100%;
-  background-image: url(/img/coovtech.png);
-  background-repeat: no-repeat;
-}
+
 section#sidebar h1 {
   margin-bottom: 10px;
 }
@@ -236,8 +244,8 @@ ul#linkbar {
   padding-left: 40px;
 }
 div.author_details {
-  margin-top: 100px;
-  min-height: 800px;
+  margin-top: 10px;
+  min-height: 1500px;
 }
 div.author_details p {
   padding: 3px;
@@ -308,16 +316,6 @@ ul.nav li a {
 }
 ul.nav li a:hover {
   color: #000;
-}
-.avatar {
-  margin-left: 2px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 15px #ccc;
-  opacity: .8;
-}
-.avatar:hover {
-  opacity: 1;
 }
 .post {
   padding: 10px;

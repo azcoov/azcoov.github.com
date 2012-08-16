@@ -2,8 +2,8 @@
 layout: default
 ---
 <article>
-	<p class="date">{{ page.date | date: "%B %e, %Y" }}</p>
 	<h1 itemprop="name">{{ page.title }}</h1>
+	<p class="date">{{ page.date | date: "%B %e, %Y" }}</p>
 	<p style="display:none;" itemprop="description" >{{ page.excerpt }}" </p>
 
 	{{ content }}
@@ -14,5 +14,5 @@ layout: default
       </p>
     {% endif %}
 
-	<a class="btn btn-success" href="/" ><i class="icon-hand-left icon-white"></i> Back home</a>
+	<a href="/">← Back home</a>
 </article>

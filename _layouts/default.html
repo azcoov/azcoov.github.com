@@ -14,81 +14,40 @@
   <meta name="description" content="Personal website of Billy Coover, Software Engineer from Arizona" />
   <meta name="keywords" content="billy, coover, billy coover, coovtech, software, engineering, independent contractor, independent consultant, iOS developer, Android developer, .net developer, entrepreneur, co-founder of SideBox, CTO of SideBox" />
   <link rel="alternate" type="application/atom+xml" href="http://coovtech.com/feed/" />
-  <link rel="author" href="https://profiles.google.com/110690218781759841805" />
+  <link rel="author" href="https://profiles.google.com/billycoover" />
   <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me"> 
   <link rel="me" type="text/html" href="http://twitter.com/billycoover">
 	<meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
 	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/css/compiled/base.css" type="text/css" />
   <link href="/img/favicon.ico" rel="icon" type="image/x-png" />
   <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script src="/scripts/compiled/jquery.instagram.js"></script>
-  <script type="text/javascript">
-  	var _gaq = _gaq || [];
-  	_gaq.push(['_setAccount', 'UA-5482014-9']);
-  	_gaq.push(['_trackPageview']);
-
-  	(function() {
-    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-
-  	})();
-
-    $(function() {
-      $(".instagram").instagram({
-          hash: 'coovtech', 
-          clientId: '021fe501f0bd4eb897a20211034a0b0a',
-          show: '5'
-      });
-    });
-  </script>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
-  <section id="sidebar">
-
+  <header>
     <div class="avatar">
       <a class="avatar-link" href="/about" style="background-image:url(/img/coov.png)"></a>
     </div>
-
-    <div class="author_details">
-      <p>I'm <a href="/about">Billy Coover</a>: CTO of <a href="http://www.sidebox.com">SideBox</a>, tech guru, and sports enthusiast.</p>
-      <ul class="nav">
-        <li><a href="http://coovtech.com"><i class="icon-home"></i> coovtech</a></li>
-        <li><a href="http://twitter.com/billycoover"><i class="icon-user"></i> twitter</a></li>
-        <li><a href="http://about.me/billycoover"><i class="icon-comment"></i> more about me</a></li>
-        <li><a href="/feed"><i class="icon-leaf"></i> rss feed</a></li>
-      </ul>
-
-      <ul class="nav">
-        <li><a href="http://www.pay-pad.com"><i class="icon-shopping-cart"></i> pay pad</a></li>
-        <li><a href="http://www.nearbynow.co"><i class="icon-map-marker"></i> nearby now</a></li>
-        <li><a href="http://www.autoloans.com"><i class="icon-shopping-cart"></i> autoloans</a></li>
-        <li><a href="http://www.sidebox.com"><i class="icon-time"></i> timeclock</a></li>
-      </ul>
-
-      <img src="/img/Instagram_Logo_Small.png" class="instagramz"/>
-      <span class="instapaid">getting my billions worth</span>
-      <div class="instagram"></div>
-
-      <small id="copyright">© 2012 CoovTech, LLC</small> 
-    </div>
-
-  </section>
+    <h1>Hi, I'm <a href="/about">Billy Coover</a> <small>(a.k.a. "Coov")</small></h1>
+    <p>CTO of <a href="http://www.sidebox.com">SideBox</a>, tech guru, and sports enthusiast.</p>
+    <p>Currently working on <a href="http://www.neabynow.co">Nearby Now</a> and <a href="http://www.pay-pad.com">Pay Pad for Stripe</a></p>
+  </header>  
 
   <section id="posts">
 
     {{ content }}
 
   </section> 
+
+  <footer>
+    <small id="copyright">© 2012 CoovTech, LLC</small> 
+  </footer>
 
   <script type="text/javascript">
     var _gauges = _gauges || [];

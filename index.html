@@ -9,15 +9,10 @@ layout: default
 <div class="listing">
 {% for post in site.posts %}
   {% if post.type == 'link' %}
-    <div class="post other link">
-      <span class="icon" title="This is a link elsewhere"></span>
-      <h2 ><a href="{{ post.link }}">{{ post.title }}</a></h2>
-      <p >{{ post.content }}</p>
-    </div>
   {% else %}
     <div class="post">
-      <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
       <h2 ><a href="http://coovtech.com{{ post.url }}/">{{ post.title }}</a></h2>
+      <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
       <p >{{ post.excerpt | markdownify }}<a href="http://coovtech.com{{ post.url }}/" class="continue">More...</a> </p>
     </div>
   {% endif %}

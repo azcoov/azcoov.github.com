@@ -288,6 +288,7 @@ article {
   color:#949494;
   font-size:.8em;
   margin-top: 1px;
+  margin-bottom: 0px;
 }
 
 ul.nav {
@@ -307,9 +308,6 @@ ul.nav li a {
 ul.nav li a:hover {
   color: #000;
 }
-.listing .post {
-  width:100%;
-}
 .listing .post:first-child {
   margin-top: 0px;
 }
@@ -322,8 +320,9 @@ ul.nav li a:hover {
   color: #222;
   text-decoration: none;
 }
-.listing .post .continue {
-  font-size: .8em;
+.listing .post {
+  width:100%;
+  margin-bottom: 40px;
 }
 .listing .post.other {
   margin-left: 24px;

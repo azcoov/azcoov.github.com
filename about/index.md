@@ -31,4 +31,7 @@ I get emails and phone solicitations on occasion from startups and businesses ho
 
 If you have a small project, are looking for a consultant, need advice, please feel free email me at [billy@coovtech.com](mailto:billy@coovtech.com). You can also find me [on Twitter](http://twitter.com/billycoover), [Google+](https://plus.google.com/110690218781759841805), and [App.net](https://alpha.app.net/billycoover).
 
+<a href="https://twitter.com/billycoover" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @billycoover</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 [← Back home](http://coovtech.com)

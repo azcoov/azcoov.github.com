@@ -46,3 +46,5 @@ Check out the [README](https://github.com/azcoov/lessneglect-ios/blob/master/REA
 
 Less Neglect also has two client libraries for [Ruby](https://github.com/lessneglect/lessneglect-ruby) and [.NET](https://github.com/lessneglect/lessneglect-dotnet) that you should checkout if you want to communicate server-side. 
 
+**update** The iOS client library is now featured on the [Less Neglect API Site](http://lessneglect.com/api/clients#ios). Winning!
+

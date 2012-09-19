@@ -6,9 +6,11 @@ excerpt:
 ---
 
 ***UPDATE 2***
-I spoke with Apple by phone this morning. The person I spoke with was very kind and sympathetic to what happened. He acknowledged that it was a mistake for Apple to have rejected the app and apologized for the unfortunate app review experience I had. They took a look at the app again and confirmed that it does not violate 11.2 and approved the app.
+I spoke with Apple by phone this morning. The person I spoke with was very kind and sympathetic to what happened. He had seen my blog post last night and immediately escalated action on their end. He acknowledged that it was a mistake for Apple to have rejected the app and apologized for the unfortunate app review experience I had. They took a look at the app again and confirmed that it does not violate 11.2 and approved the app.
 
-I also asked for clarification on the cross-platform exzemption. 
+I also asked for clarification on the cross-platform exemption that the reviewer talked about. He said that was incorrect and would seek clarification from the reviewer on that. Any app rejection is based on the iOS platform, regardless of any other platform.
+
+Overall I'm happy that we were able to work this out. Kudos for Apple for escalating and solving this for me!  
 
 ***UPDATE 1***
 Apple reached out to me this evening. They have [approved the app](http://coovtech.com/posts/the-apple-reaper/)! I'll update the blog post with more details tomorrow. 

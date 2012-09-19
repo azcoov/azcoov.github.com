@@ -5,7 +5,12 @@ excerpt:
   Apple has rejected the iPhone version of [Pay Pad for Stripe](http://www.pay-pad.com) and will remove the iPad versions.
 ---
 
-***UPDATE***
+***UPDATE 2***
+I spoke with Apple by phone this morning. The person I spoke with was very kind and sympathetic to what happened. He acknowledged that it was a mistake for Apple to have rejected the app and apologized for the unfortunate app review experience I had. They took a look at the app again and confirmed that it does not violate 11.2 and approved the app.
+
+I also asked for clarification on the cross-platform exzemption. 
+
+***UPDATE 1***
 Apple reached out to me this evening. They have [approved the app](http://coovtech.com/posts/the-apple-reaper/)! I'll update the blog post with more details tomorrow. 
 
 I've been patiently waiting for Apple to approve the iPhone version of [Pay Pad for Stripe](https://www.pay-pad.com/). I released the iPhone version, and updates to the iPad versions, the same day back on September 2nd. The iPad apps were approved about eight days later, but the iPhone app stayed in review. I figured that the reason this happened was that reviews on an existing app go through a different QA process.

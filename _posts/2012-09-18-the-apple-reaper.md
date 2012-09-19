@@ -13,7 +13,7 @@ I also asked for clarification on the cross-platform exemption that the reviewer
 Overall I'm happy that we were able to work this out. Kudos for Apple for escalating and solving this for me!  
 
 ***UPDATE 1***
-Apple reached out to me this evening. They have [approved the app](http://coovtech.com/posts/the-apple-reaper/)! I'll update the blog post with more details tomorrow. 
+Apple reached out to me this evening. They have [approved the app](http://itunes.apple.com/us/app/pay-pad-for-stripe-for-iphone/id558387939?ls=1)! I'll update the blog post with more details tomorrow. 
 
 
 ***Original Post***

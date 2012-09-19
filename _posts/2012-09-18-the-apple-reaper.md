@@ -15,6 +15,8 @@ Overall I'm happy that we were able to work this out. Kudos for Apple for escala
 ***UPDATE 1***
 Apple reached out to me this evening. They have [approved the app](http://coovtech.com/posts/the-apple-reaper/)! I'll update the blog post with more details tomorrow. 
 
+
+***Original Post***
 I've been patiently waiting for Apple to approve the iPhone version of [Pay Pad for Stripe](https://www.pay-pad.com/). I released the iPhone version, and updates to the iPad versions, the same day back on September 2nd. The iPad apps were approved about eight days later, but the iPhone app stayed in review. I figured that the reason this happened was that reviews on an existing app go through a different QA process.
 
 About four days later (13 days after I submitted the app), I received an email from Apple's review team that my app required more time to review. I've been in the financial industry for a long time and I know this term well... "Manual Underwriting". So I knew something was up, I just didn't know what. I was guessing that it might be a problem with me not bundling the application as a universal app. I was wrong.

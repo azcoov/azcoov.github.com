@@ -272,7 +272,7 @@ body > header, body > section, body > footer {
 
 body > header {
   color: #222;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -288,6 +288,7 @@ article {
   color:#949494;
   font-size:.8em;
   margin-top: 1px;
+  margin-bottom: 0px;
 }
 
 ul.nav {
@@ -307,9 +308,6 @@ ul.nav li a {
 ul.nav li a:hover {
   color: #000;
 }
-.listing .post {
-  width:100%;
-}
 .listing .post:first-child {
   margin-top: 0px;
 }
@@ -322,8 +320,9 @@ ul.nav li a:hover {
   color: #222;
   text-decoration: none;
 }
-.listing .post .continue {
-  font-size: .8em;
+.listing .post {
+  width:100%;
+  margin-bottom: 40px;
 }
 .listing .post.other {
   margin-left: 24px;
@@ -384,4 +383,13 @@ div.instagram-placeholder,
 }
 .twitter {
   left: -3px;
+}
+#ads-container {
+  margin-top: 20px;
+  font-size: .8em;
+}
+#paypad-link {
+  font-size: .6em;
+  line-height: 1em;
+  margin-top: 0px;
 }

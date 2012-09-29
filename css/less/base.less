@@ -38,16 +38,6 @@ fieldset {
 select option {
   padding: 0 5px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed',sans-serif;
-  font-weight: 700;
-}
 .access {
   display: none;
 }
@@ -82,7 +72,7 @@ a img {
 }
 body {
   color: #222;
-  font: 15px/1.5 "Open Sans",Arial,"Liberation Sans",FreeSans,sans-serif;
+  font: 17px/1.5 "Open Sans",Arial,"Liberation Sans",FreeSans,sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em;
 }
@@ -118,15 +108,14 @@ img {
   border: 1px solid #EEE;
 }
 h1 {
-  margin: 10px 0 10px 0;
-  font-size: 20px;
+  margin: 10px 0 5px 0;
+  font-size: 22px;
   color: #000;
 }
 h2 {
   margin: 2em 0 -0.5em 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #000;
-  border-bottom: 1px dotted #BBB;
 }
 h3 {
   margin: 2em 0 -0.75em 0;
@@ -177,7 +166,6 @@ caption {
   padding: 10px 10px 5px 0;
   text-align: left;
   font-size: 11px;
-  text-transform: uppercase;
   font-weight: bold;
 }
 th {
@@ -284,7 +272,7 @@ body > header, body > section, body > footer {
 
 body > header {
   color: #222;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -299,6 +287,8 @@ article {
 .date {
   color:#949494;
   font-size:.8em;
+  margin-top: 1px;
+  margin-bottom: 0px;
 }
 
 ul.nav {
@@ -318,26 +308,21 @@ ul.nav li a {
 ul.nav li a:hover {
   color: #000;
 }
-.listing .post {
-  width:100%;
-}
 .listing .post:first-child {
   margin-top: 0px;
 }
-.listing .post p.date {
-  margin: 0 0 -1px 0;
-}
 .listing .post h2 {
-  margin: 0 0 -5px 0;
-  font-size: 18px;
-  border: none;
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  color: black;
 }
 .listing .post h2 a {
   color: #222;
   text-decoration: none;
 }
-.listing .post .continue {
-  font-size: .8em;
+.listing .post {
+  width:100%;
+  margin-bottom: 40px;
 }
 .listing .post.other {
   margin-left: 24px;
@@ -347,16 +332,11 @@ ul.nav li a:hover {
 }
 .listing .post.other h2 {
   margin-bottom: -3px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 14px;
 }
 .listing .post.other p:last-child {
   margin-bottom: 0;
-}
-.main p.date {
-  color: #666;
-  margin: 20px 0 -20px 0;
-  font-size: .8em;
 }
 .main ul,
 .main ol {
@@ -403,4 +383,13 @@ div.instagram-placeholder,
 }
 .twitter {
   left: -3px;
+}
+#ads-container {
+  margin-top: 20px;
+  font-size: .8em;
+}
+#paypad-link {
+  font-size: .6em;
+  line-height: 1em;
+  margin-top: 0px;
 }

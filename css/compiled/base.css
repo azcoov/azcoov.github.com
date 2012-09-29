@@ -272,7 +272,7 @@ body > header, body > section, body > footer {
 
 body > header {
   color: #222;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -383,4 +383,13 @@ div.instagram-placeholder,
 }
 .twitter {
   left: -3px;
+}
+#ads-container {
+  margin-top: 20px;
+  font-size: .8em;
+}
+#paypad-link {
+  font-size: .6em;
+  line-height: 1em;
+  margin-top: 0px;
 }

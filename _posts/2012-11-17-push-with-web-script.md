@@ -27,3 +27,6 @@ One of the things that I struggled with was setting the header Content-Type to a
 
 ##Is this production ready?
 Surprisingly, I'd say yes, though with a guarded tone. I've done zero due diligence regarding security or scalibility for webscript.io, but I trust [Steve Marx](https://twitter.com/smarx), so there you go!
+
+**Update**  
+*Please note that in this above Stripe example, it is assumed that the Stripe event is coming from your account. This was done for brevity. If your users connect to your app via Stripe connect, and you want to process their webhooks, you either need to skip the call back to Stripe to get the event data (I do not recommend you do this), or you'll need to use that users api key, not yours.*

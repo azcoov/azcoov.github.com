@@ -7,11 +7,11 @@ excerpt:
 
 If you haven't heard of [webscript.io](http://webscript.io) yet, it's an interesting new service that lets you write [Lua](http://www.lua.org/about.html) scripts that respond web requests, and you gives you a URL endpoint to execute the script.
 
-I recently launched iOS push notifications for [Pay Pad for Stripe](http://www.pay-pad.com). To do that, I had to spin up a new rails on app Heroku that processes [Stripe](http://www.stripe.com) Webhooks. Not that big of a deal because Heroku deployment is really simple. However, running a full-blown rails app on Heroku feels like over-kill when all I'm really doing is acting as proxy between Stripe and [UrbanAirship](http://www.urbanairship.com). Sure you could make a sinatra app, or whatever thin app you favor, but still, you are going to `git push heroku master` every time you want to make a change.
+I recently launched iOS push notifications for [Pay Pad for Stripe](http://www.pay-pad.com). To do that, I had to spin up a new rails on app Heroku that processes [Stripe](http://www.stripe.com) Webhooks. Not that big of a deal because Heroku deployment is really simple. However, running a full-blown rails app on Heroku feels like over-kill when all I'm really doing is acting as proxy between Stripe and [UrbanAirship](http://urbanairship.com/). Sure you could make a sinatra app, or whatever thin app you favor, but still, you are going to `git push heroku master` every time you want to make a change.
 
 After watching the intro video on [webscript.io](http://webscript.io) I realized a webscript could do everything I needed to push notifications from Stripe webhooks. So lets build it shall we?
 
-*(This assumes that you already have a [Stripe](http://www.stripe.com) account and an [UrbanAirship](http://www.urbansirship.com) account, and that you know how to setup iOS APN's ([Apple Push Notifications](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ApplePushService/ApplePushService.html)) in Objective-C)*
+*(This assumes that you already have a [Stripe](http://www.stripe.com) account and an [UrbanAirship](http://urbanairship.com/) account, and that you know how to setup iOS APN's ([Apple Push Notifications](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ApplePushService/ApplePushService.html)) in Objective-C)*
 
 ##The Push Notification Script
 I think you'll be blown away by how simple this script is.
@@ -28,5 +28,5 @@ One of the things that I struggled with was setting the header Content-Type to a
 ##Is this production ready?
 Surprisingly, I'd say yes, though with a guarded tone. I've done zero due diligence regarding security or scalibility for webscript.io, but I trust [Steve Marx](https://twitter.com/smarx), so there you go!
 
-**Update**  
+**Update**
 *Please note that in this above Stripe example, it is assumed that the Stripe event is coming from your account. This was done for brevity. If your users connect to your app via Stripe connect, and you want to process their webhooks, you either need to skip the call back to Stripe to get the event data (I do not recommend you do this), or you'll need to use that users api key, not yours.*

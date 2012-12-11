@@ -15,7 +15,7 @@ In 2010 I co-founded <a href="http://www.sidebox.com">SideBox</a> with my busine
 
 ##Now
 
-I currently split my time between .NET contracting and building SideBox and Nearby Now. At SideBox I'm responsible for:
+I currently split my time between (.NET,iOS,rails) contracting and building SideBox and Nearby Now. At SideBox I'm responsible for:
 
 - Development of our web, iOS, Android, and WordPress products
 - Quality assurance

@@ -5,7 +5,7 @@ title: "About Billy Coover"
 
 ![Billy Coov and one of his three humans](/img/billy.png)
 
-This is the personal site of Billy Coover - software engineer, entrepreneur, and sports nut. I build desktop, web, and mobile applications for businesses of all sizes. You can view my [Tekfolio](http://www.tekfolio.me/billy) to see some of my recent side-projects.
+This is the personal site of Billy Coover - software engineer, entrepreneur, and sports nut. I build desktop, web, and mobile applications for businesses of all sizes.
 
 ##Background
 
@@ -15,21 +15,12 @@ In 2010 I co-founded <a href="http://www.sidebox.com">SideBox</a> with my busine
 
 ##Now
 
-I currently split my time between (.NET,iOS,rails) contracting and building SideBox and Nearby Now. At SideBox I'm responsible for:
+In 2013, I join the team at <a href="http://www.lessneglect">Less Neglect</a> to help them build an amazing customer analytics platform.
 
-- Development of our web, iOS, Android, and WordPress products
-- Quality assurance
-- Keeping multiple web and database servers (data centers and AWS) up, running, and patched
-- Business development, marketing, and advertising
-- Accounting/AP/AR
-- Customer service
+I enjoy working on these fun projects like [Pay Pad for Stripe](https://www.pay-pad.com), [Alerts for Stripe](https://www.pay-pad.com/alerts), and [Tekfolio](http://www.tekfolio.me).
 
-I enjoy working on these fun projects like [Pay Pad for Stripe](https://www.pay-pad.com), [Alerts for Stripe](https://www.pay-pad.com/alerts), [Tekfolio](http://www.tekfolio.me), and [The Fit Menu](http://www.thefitmenu.com).
-
-##Availability
-I get emails and phone solicitations on occasion from startups and businesses hoping to recruit me. I'm humbled by this. I am fully committed to SideBox and Nearby Now which means I can't commit to a day job.
-
-If you have a small project, are looking for a consultant, need advice, please feel free email me at [billy@coovtech.com](mailto:billy@coovtech.com). You can also find me [on Twitter](http://twitter.com/billycoover), [Google+](https://plus.google.com/110690218781759841805), and [App.net](https://alpha.app.net/billycoover).
+##Get in Touch
+You can find me [on Twitter](http://twitter.com/billycoover), or email me at [billy@coovtech.com](mailto:billy@coovtech.com).
 
 <a href="https://twitter.com/billycoover" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @billycoover</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

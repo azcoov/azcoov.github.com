@@ -26,46 +26,34 @@
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet" type="text/css">
+  <script src="jquery.prettygist.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".gist").prettyGist();
+    });
+  </script>
 
 </head>
 <body>
 
-  <header>
-    <div class="avatar">
-      <a class="avatar-link" href="/about" style="background-image:url(/img/coov.png)"></a>
+  <div class="header">
+    <div class="container">
+      <section class="name">
+        <a href="/">Billy Coover</a>
+      </section>
+
+      <ul class="menu">
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
     </div>
-    <h1>Hi, I'm <a href="/about">Billy</a></h1>
-    <p>CTO of <a href="http://www.sidebox.com">SideBox</a>, tech guru, and sports enthusiast.</p>
-    <p>Currently working on <a href="http://www.nearbynow.co">Nearby Now</a> and <a href="http://www.pay-pad.com">Pay Pad for Stripe</a>.</p>
+  </div>
 
-    <div id="ads-container">
-      <div style="width:400px;">
-        <div style="float:left">
-          <a href="http://www.pay-pad.com?src=ct1">
-          <img src="https://s3.amazonaws.com/assets.coovtech/pay-pad-Icon.png" alt="pay pad for stripe icon" /></a><br/>
-        </div>
-        <div style="float:right; text-align:left;">
-          <span>Pay Pad for <a href="http://www.stripe.com">@Stripe</a></span>
-          <p>
-            Manage your Stripe account from your iOS device<br/><small>(now with push notifications)</small>
-            <a id="paypad-link" href="http://www.pay-pad.com?src=ct2">Download iOS app</a>
-          </p>
-        </div>
-        <div style="clear:both"></div>
-      </div>
-    </div>
-
-  </header>
-
-  <section id="posts">
+  <section id="posts" style="margin-top: 60px;">
 
     {{ content }}
 
   </section>
-
-  <footer>
-    <small id="copyright">© 2012 CoovTech, LLC</small>
-  </footer>
 
   <script type="text/javascript">
     var _gauges = _gauges || [];

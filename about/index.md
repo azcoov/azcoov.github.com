@@ -15,7 +15,7 @@ In 2010 I co-founded [SideBox](http://www.sidebox.com) with my business partner 
 
 ##Now
 
-In 2013, I join the team at [Less Neglect](http://www.lessneglect) to help them build an amazing customer analytics platform.
+In 2013, I joined the team at [Less Neglect](http://www.lessneglect) to help them build an amazing customer analytics platform.
 
 I enjoy working on these fun projects like [Pay Pad for Stripe](https://www.pay-pad.com), [Alerts for Stripe](https://www.pay-pad.com/alerts), and [Tekfolio](http://www.tekfolio.me).
 

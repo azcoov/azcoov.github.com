@@ -38,7 +38,7 @@ Windows box.
 
 ##The Future of Pay Pad
 
-So what about Pay Pad for [Stripe](http://www.pay-pad.com)? 
+So what about [Pay Pad](http://www.pay-pad.com) for [Stripe](http://www.pay-pad.com)? 
 
 Ever had a baby? I've had 3 and Pay Pad is my 4th.
 Since August of 2012, I've watched Pad Pad grow to be an awesome app with almost 1,000 users. When I first 

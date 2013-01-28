@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
+{% if page.image %}
+<div class="page-image" style='background-image: url("{{ page.image }}");'>
+  <div class="post-title">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+{% else %}
+<div style="margin-bottom: 60px;"></div>
+{% endif %}
+
 <article>
-	<h1 itemprop="name">{{ page.title }}</h1>
+  {% if page.image == null%}
+  <h1 itemprop="name">{{ page.title }}</h1>
+  {% endif %}
+	
 	<p class="date">{{ page.date | date: "%B %e, %Y" }}</p>
 	<p style="display:none;" itemprop="description" >{{ page.excerpt }}" </p>
 

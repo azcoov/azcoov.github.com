@@ -1,34 +1,54 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Blog">
 <head>
-	<title>CoovTech - jQuery Toaster
-	</title>
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>jQuery Toaster</title>
-	<meta name="author" content="Billy Coover">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
-	<script src="js/toaster.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="../css/base.css" />
-	<link href="css/toaster.css" rel="stylesheet" type="text/css" />
-	
-	<link rel="stylesheet" href="/css/base.css" type="text/css" />
-  	<link href="/images/favicon.ico" rel="icon" type="image/x-png" />
-  	<script type="text/javascript">
+  <title>
+    {% if page.title %}
+      {{ page.title }} &mdash; CoovTech
+    {% else %}
+      CoovTech
+    {% endif %}
+  </title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Billy Coover" />
+  <meta name="copyright" content="Billy Coover" />
+  <meta name="description" content="Personal website of Billy Coover, Software Engineer from Arizona" />
+  <meta name="keywords" content="billy, coover, billy coover, coovtech, software, engineering, independent contractor, independent consultant, iOS developer, Android developer, .net developer, entrepreneur, co-founder of SideBox, CTO of SideBox" />
+  <link rel="alternate" type="application/atom+xml" href="http://coovtech.com/feed/" />
+  <link rel="author" href="https://plus.google.com/110690218781759841805" />
+  <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me">
+  <link rel="me" type="text/html" href="http://twitter.com/billycoover">
+  <meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <link rel="stylesheet" href="/css/compiled/base.css" type="text/css" />
+  <link href="/img/favicon.ico" rel="icon" type="image/x-png" />
+  <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>jQuery Toaster</title>
+  <meta name="author" content="Billy Coover">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="js/toaster.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="../css/base.css" />
+  <link href="css/toaster.css" rel="stylesheet" type="text/css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet" type="text/css">
 
-  	var _gaq = _gaq || [];
-  	_gaq.push(['_setAccount', 'UA-5482014-9']);
-  	_gaq.push(['_trackPageview']);
+  <script type="text/javascript">
 
-  	$(function() {
-    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    		
-    		$('#toaster').toaster();
-			
-			$('#example1').click(function () {
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5482014-9']);
+    _gaq.push(['_trackPageview']);
+
+    $(function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        
+        $('#toaster').toaster();
+      
+      $('#example1').click(function () {
                 $(this).toaster('show', $(this).text());
                 return false;
             });
@@ -57,110 +77,111 @@
                 $(this).toaster('show', 'An error occured.');
                 return false;
             });
-			
-			$('#example6').click(function () {
+      
+      $('#example6').click(function () {
                 $.toaster.defaults.backgroundColor = '#666699';
-				$.toaster.defaults.opacity = $("#opacity").val();
+        $.toaster.defaults.opacity = $("#opacity").val();
                 $.toaster.defaults.color = '#fff';
                 $(this).toaster('show', 'An error occured.');
                 return false;
             });
-			
-			$('#example7').click(function () {
+      
+      $('#example7').click(function () {
                 $.toaster.defaults.backgroundColor = '#fff';
                 $.toaster.defaults.color = '#222';
-				$.toaster.defaults.sticky = true;
+        $.toaster.defaults.sticky = true;
                 $(this).toaster('show', 'Sticky toaster. Click me to un-stick me.');
                 return false;
             });
             
             $('#example8').click(function () {
                 $.toaster.defaults.color = '#fff';
-				$.toaster.defaults.sticky = false;
+        $.toaster.defaults.sticky = false;
                 $.toaster.defaults.backgroundColor = '#CC99FF';
                 $(this).toaster('show', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?');
                 return false;
             });
-  	})();
+    })();
 
 </script>
 
 </head>
 <body>
-<a href="https://github.com/azcoov/jQuery-Toaster"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
-<div id="toaster">Toaster <em>example</em></div>
-  <div class="sidebar">
-    <a href="/">
-      <img src="http://gravatar.com/avatar/9bb02ec020f37fd161b8a7f9e0823ef2.png" height="100" width="100" class="avatar">
-    </a>
-    <br />
-    <span>Billy Coover</span><br />
-    <span>Software Engineer in Mesa, AZ</span>
 
-    <ul class="nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="http://www.twitter.com/billycoover">Twitter</a></li>
-      <li><a href="http://www.sidebox.com">SideBox</a></li>
-      <li><a href="http://www.nearbynow.co">Nearby Now</a></li>
-      <li><a href="http://www.tekfolio.me/billy">Tekfolio</a></li>
-      <li><a href="http://photos.coovtech.com/">InstaCoov</a></li>
-    </ul>
+  <div class="header">
+    <div class="container">
+      <section class="name">
+        <a href="/">Billy Coover</a>
+      </section>
 
-    <p>My name is Billy Coover. I'm the Co-Founder of <a href="http://sidebox.com" target="_blank">SideBox</a> in Arizona.</p>
-    <a href="https://twitter.com/billycoover" class="twitter-follow-button" data-show-count="false">Follow</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-    </script>
-    <a href="http://stackexchange.com/users/23526">
-      <img src="http://stackexchange.com/users/flair/23526.png" width="208" height="58" alt="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Billy Coover on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-    </a>
+      <ul class="menu">
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </div>
   </div>
 
-  <div class="main">
+  <div style="max-width: 700px; margin:0 auto; margin-top: 60px;">
+
+    <h2>jQuery Toaster</h2>
+  <br /><br />
+    <div> 
+      <b>On click of an element</b><br />
+      <a href="#" id="example1">Toast from hyperlink</a>
+    </div><br />
+
+    <div>
+      <b>With some color</b><br />
+      <a href="#" id="example2">Toast will be blue</a>
+    </div><br />
+
+    <div>
+      <b>Butter my toast</b><br />
+      <a href="#" id="example3">Yummy!</a>
+    </div><br />
+
+    <div>
+      <b>Burnt my toast</b><br />
+      <a href="#" id="example4">doh!</a>
+    </div><br />
+
+    <div>
+      <b>Show the toaster on error</b><br />
+      <a href="#" id="example5">Click to throw an error</a>
+    </div><br />
     
-	
-	<h2>jQuery Toaster</h2>
-<br /><br />
-		<div>	
-			<b>On click of an element</b><br />
-			<a href="#" id="example1">Toast from hyperlink</a>
-		</div><br />
+    <div>
+      <b>Change the opacity</b><br />
+      <input id="opacity" value=".30" type="text" /><br />
+      <a href="#" id="example6">Click to change opacity</a>
+    </div><br />
+    
+    <div>
+      <b>Sticky toaster</b><br />
+      <a href="#" id="example7">Click to show a sticky toaster.</a>
+    </div><br />
 
-		<div>
-			<b>With some color</b><br />
-			<a href="#" id="example2">Toast will be blue</a>
-		</div><br />
-
-		<div>
-			<b>Butter my toast</b><br />
-			<a href="#" id="example3">Yummy!</a>
-		</div><br />
-
-		<div>
-			<b>Burnt my toast</b><br />
-			<a href="#" id="example4">doh!</a>
-		</div><br />
-
-		<div>
-			<b>Show the toaster on error</b><br />
-			<a href="#" id="example5">Click to throw an error</a>
-		</div><br />
-		
-		<div>
-			<b>Change the opacity</b><br />
-			<input id="opacity" value=".30" type="text" /><br />
-			<a href="#" id="example6">Click to change opacity</a>
-		</div><br />
-		
-		<div>
-			<b>Sticky toaster</b><br />
-			<a href="#" id="example7">Click to show a sticky toaster.</a>
-		</div><br />
-
-		<div>
-			<b>Really long message</b><br />
-			<a href="#" id="example8">Lorem Ipsum</a>
-		</div><br />
+    <div>
+      <b>Really long message</b><br />
+      <a href="#" id="example8">Lorem Ipsum</a>
+    </div><br />
   </div>
+
+  </div>
+
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '4f0d0601613f5d6718000001');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
 
 </body>
 </html>

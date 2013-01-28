@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: about
 title: "About Billy Coover"
 ---
+
+
 
 ![Billy Coov and one of his three humans](/img/billy.png)
 
@@ -23,3 +25,5 @@ I enjoy working on these fun projects like [Pay Pad for Stripe](https://www.pay-
 You can find me [on Twitter](http://twitter.com/billycoover), or email me at [billy@coovtech.com](mailto:billy@coovtech.com).
 
 [← Back home](http://coovtech.com)
+
+</div>

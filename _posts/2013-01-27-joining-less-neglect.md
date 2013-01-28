@@ -2,7 +2,7 @@
 layout: post
 title: "Joining Less Neglect"
 excerpt:
-  It's official, I'm now part of the [Less Neglect](http://www.lessneglect.com) team. 
+  It's official, I'm now part of the Less Neglect team. 
   This marks the first job I got over a tweet. I've actually been part of the Less Neglect 
   team for a while but Monday starts my official first "full-time" day.  
 image: http://f.cl.ly/items/0G0s1I2N0y3i0G0m3N0s/ln-header.png

@@ -15,7 +15,7 @@ From mid 2005, through now, I've been building award winning enterprise desktop,
 
 In 2010 I co-founded [Nearby Now](http://www.nearbynow.co). Nearby Now is a company focused on helping small businesses increase sales, drive more visitors to their website, and get more good customer reviews.
 
-In 2013, I joined the team at [Less Neglect](http://www.lessneglect) to help them build an amazing customer analytics platform.
+In 2013, I joined the team at [Preact](http://www.preact.io) to help them build an amazing customer analytics platform. I've since left the company to focus on Nearby Now full-time.
 
 ##Now
 

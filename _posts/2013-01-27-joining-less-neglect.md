@@ -64,5 +64,4 @@ Not sure what Less Neglect is? I've written about it plenty. Said simply, Less N
 customer analytics platform that you wish you had the time and money to build yourself. 
 It's addicting to watch your customer data in real-time and see how users are 
 navigating inside of your app. The possibilities are endless. You are going to be able to provide customer service 
-that your competition cannot. You need this. No seriously, stop reading my blog and 
-`cURL https://api.lessneglect.com/api/v2/registration` to sign up.
+that your competition cannot. You need this.

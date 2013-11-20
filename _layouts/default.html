@@ -8,45 +8,40 @@
 	    CoovTech
 	  {% endif %}
 	</title>
+  <link href="/img/favicon.ico" rel="icon" type="image/x-png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Billy Coover" />
   <meta name="copyright" content="Billy Coover" />
   <meta name="description" content="Personal website of Billy Coover, Software Engineer from Arizona" />
-  <meta name="keywords" content="billy, coover, billy coover, coovtech, software, engineering, independent contractor, independent consultant, iOS developer, Android developer, .net developer, entrepreneur, co-founder of SideBox, CTO of SideBox" />
+  <meta name="keywords" content="billy, coover, billy coover, coovtech, software, engineering, nearby now, co-founder of nearby now, cto of nearby now, iOS developer, Android developer, .net developer, entrepreneur" />
+  <meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
   <link rel="alternate" type="application/atom+xml" href="http://coovtech.com/feed/" />
   <link rel="author" href="https://plus.google.com/110690218781759841805" />
   <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me">
   <link rel="me" type="text/html" href="http://twitter.com/billycoover">
-	<meta name="google-site-verification" content="HdcE1PjHArh5uaHsotQS_7LcIH5Y7OIUBUHo1IJOKgM" />
-	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-  <link rel="stylesheet" href="/css/compiled/base.css" type="text/css" />
-  <link href="/img/favicon.ico" rel="icon" type="image/x-png" />
   <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/compiled/base.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
-  <div class="header">
-    <div class="container">
-      <section class="name">
-        <a href="/">Billy Coover</a>
-      </section>
-
-      <ul class="menu">
-        <li><a href="/about">About</a></li>
-      </ul>
+  <div class="container">
+    <div class="page-header">
+      <h1><a href="/">Billy Coover</a></h1>
+      <p class="lead">Co-founder and CTO of Nearby Now. Lover of API's and mobile technology.</p>
     </div>
+    <section id="posts">
+      {{ content }}
+    </section>
   </div>
-
-  <section id="posts">
-
-    {{ content }}
-
-  </section>
 
   <script type="text/javascript">
     var _gauges = _gauges || [];

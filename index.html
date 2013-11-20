@@ -7,14 +7,14 @@ layout: default
 <p style="display:none;" itemprop="description">A blog by Billy Coover</p>
 
 <div class="listing">
-{% for post in site.posts %}
-  {% if post.type != 'link' %}
-    <div class="post">
-      <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
-    </div>
-  {% endif %}
-{% endfor %}
+  {% for post in site.posts %}
+    {% if post.type != 'link' %}
+      <div class="post">
+        <h2>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>

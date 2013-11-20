@@ -1,7 +1,6 @@
 body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #222;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -103,12 +102,10 @@ article.img {
 }
 h1 {
   margin: 10px 0 5px 0;
-  font-size: 24px;
   color: #000;
 }
 h2 {
   margin: 2em 0 -0.5em 0;
-  font-size: 20px;
   color: #000;
 }
 h3 {
@@ -179,18 +176,15 @@ div.author_details h2 {
 
 /*POSTS*/
 div.listing {
-  max-width: 700px;
-  margin:0 auto;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 article {
-  max-width: 700px;
   margin:0 auto;
 }
 
 article p {
-  font-size :18px;
+  font-size :20px;
 }
 
 body > header {
@@ -208,10 +202,10 @@ article {
 }
 
 .date {
-  color:#949494;
-  font-size:.8em;
+  color:#A2A2A2;
   margin-top: 1px;
   margin-bottom: 0px;
+  font-size: 16px;
 }
 
 ul.nav {
@@ -236,8 +230,6 @@ ul.nav li a:hover {
 }
 .listing .post h2 {
   margin: 10px 0 5px 0;
-  font-size: 22px;
-  color: black;
 }
 .listing .post h2 a {
   color: #222;
@@ -255,7 +247,6 @@ ul.nav li a:hover {
 }
 .listing .post.other h2 {
   margin-bottom: -3px;
-  font-size: 18px;
   line-height: 14px;
 }
 .listing .post.other p:last-child {
@@ -315,8 +306,7 @@ ul.nav li a:hover {
 }
 
 .container {
-  width: 750px;
-  margin: 0 auto;
+  max-width: 730px;
 }
 
 .name {
@@ -394,7 +384,7 @@ div.post-title {
 div.post-title h1{
   color: #fff;
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.9),0 -1px 1px rgba(0, 0, 0, 0.8);
 }

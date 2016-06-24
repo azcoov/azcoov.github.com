@@ -13,7 +13,7 @@ I also asked for clarification on the cross-platform exemption that the reviewer
 Overall I'm happy that we were able to work this out. Kudos for Apple for escalating and solving this for me!  
 
 ***UPDATE 1***
-Apple reached out to me this evening. They have [approved the app](http://itunes.apple.com/us/app/pay-pad-for-stripe-for-iphone/id558387939?ls=1)! I'll update the blog post with more details tomorrow. 
+Apple reached out to me this evening. They have [approved the app](http://itunes.apple.com/us/app/pay-pad-for-stripe-for-iphone/id558387939?ls=1)! I'll update the blog post with more details tomorrow.
 
 
 ***Original Post***
@@ -21,7 +21,7 @@ I've been patiently waiting for Apple to approve the iPhone version of [Pay Pad 
 
 About four days later (13 days after I submitted the app), I received an email from Apple's review team that my app required more time to review. I've been in the financial industry for a long time and I know this term well... "Manual Underwriting". So I knew something was up, I just didn't know what. I was guessing that it might be a problem with me not bundling the application as a universal app. I was wrong.
 
-##Meet The Reaper
+## Meet The Reaper
 Today I received an email from Apple that said they'd like to discuss my app with me. In the email, they referenced section 11.2 of the [Apple Approval Guidelines](https://developer.apple.com/appstore/resources/approval/guidelines.html). For those without access to the guidelines, here's what 11.2 says:
 
 >Apps utilizing a system other than the In App Purchase API (IAP) to purchase content, functionality, or services in an app will be rejected.
@@ -30,8 +30,8 @@ I'm very confused with this email because Pay Pad for Stripe is not an app that 
 
 Apparently the problem is that Apple sees my Stripe app as a directly violation of section 11.2 and feels that they are entitled to collect 30% of the transactions that would be processed from the app.
 
-##Bat Shit Crazy!
-Could you imagine, charging customers 30% to accept a payment? I thought it was a joke. I mean it seems obvious to me what my app does and that it does not apply to 11.2, but I'm biased. 
+## Bat Shit Crazy!
+Could you imagine, charging customers 30% to accept a payment? I thought it was a joke. I mean it seems obvious to me what my app does and that it does not apply to 11.2, but I'm biased.
 
 I'm annoyed, so for the sake of my own amusement, and to complete my little temper tantrum, I've listed how our phone conversation went:
 
@@ -68,9 +68,9 @@ Still shocked I again explain how I think it's crazy that this situation is happ
 
 I've since sent two more emails requesting further clarification but I have not yet received a response. I did a Google search for this guy and it turns out I've been touched by the Apple Reaper. It's a sad day.
 
-#What's Next
+# What's Next
 I'm going to climb whatever ladder I need to climb to squash this bullshit! Apple picked on a little guy; we can't stand for this!
 
-**I'm kidding**. I don't have the time or energy to argue about it; I've wasted enough already. Writing this blog post satisfies my need to complain about it. It will take me 20 minutes to update the three apps and get them re-submitted. I don't have millions of users; no one will care. 
+**I'm kidding**. I don't have the time or energy to argue about it; I've wasted enough already. Writing this blog post satisfies my need to complain about it. It will take me 20 minutes to update the three apps and get them re-submitted. I don't have millions of users; no one will care.
 
 **"Onward!"**

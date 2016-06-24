@@ -2,7 +2,7 @@
 layout: post
 title: "Queue Visibility"
 excerpt:
-  abcdefg
+Nearby Now has been using SideKiq for 120 days now in production.
 ---
 
 Nearby Now has been using [SideKiq](http://sidekiq.org/) for 120 days now in
@@ -19,14 +19,14 @@ The cost can be prohibitive if you want to run it on AWS; we'd be forced to run 
 
 Also, I've struggled trying to come up with an efficient automated testing solution.
 
-##SideKiq
+## SideKiq
 While working at [Preact](www.preact.io) I got my first exposure to SideKiq and fell in love with it immediately.
 
 SideKiq is powerful in a much different way than SSMB. As a small company we are always trying to find the most cost effective solutions as well as the most efficient use of our precious programming time. With SideKiq you build ruby scripts called Workers that accept simple messages (usually database object ids), then "queue" them asynchronously.
 
 SideKiq uses multithreading so it can process on ton of message and is memory efficient. You have to really think multithreading through. Over in the service broker land, we get locking on conversation groups until the transaction commits. Taking messaging outside of the database means you have to take the lack of locking into consideration when designing your solution.
 
-##Talking to SideKiq from SQL Server
+## Talking to SideKiq from SQL Server
 Pushing our messages from the Service Broker over to SideKiq is actually simple. We've been building SQL CLR's for years and one of the generic CLR's we have let's you make an external web request with a payload.
 
 So we setup a simple Sinatra app that acts as proxy between our SideKiq queue and the outside world. When we want to queue something, we just call our sp_external_post proc, which makes an encrypted HTTP POST to our proxy server, with a small non-data sensitive payload that includes worker instructions.
@@ -37,7 +37,7 @@ SideKiq comes with a slick real-time monitoring app built-in as well as a robust
 
 It's dirt cheap to run SideKiq.
 
-##Plan to fail over
+## Plan to fail over
 SideKiq has been stable but servers will be servers so I wanted to make sure we had a backup plan. The worst case scenario for us is a queue that stops accepting new messages.
 
 To give us an alternative queue solution, I built the SQL CLR that posts external queue messages in a way that uses a common json payload format that allows us to utilize both SideKiq and [IronMQ](http://www.iron.io/). IronMQ has some redundancy features that turn it into about 4 additional external queue options for us. Our SideKiq Sinatra app understands the same json structure so the two are capable of processing the same types of payloads.

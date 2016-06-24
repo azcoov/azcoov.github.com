@@ -13,7 +13,7 @@ After watching the intro video on [webscript.io](http://webscript.io) I realized
 
 *(This assumes that you already have a [Stripe](http://www.stripe.com) account and an [UrbanAirship](http://urbanairship.com/) account, and that you know how to setup iOS APN's ([Apple Push Notifications](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ApplePushService/ApplePushService.html)) in Objective-C)*
 
-##The Push Notification Script
+## The Push Notification Script
 I think you'll be blown away by how simple this script is.
 
 <script src="https://gist.github.com/4101151.js"> </script>
@@ -22,10 +22,10 @@ Ok so here's what this code does. First, it parses the incoming Stripe webhook. 
 
 Once you have the script ready, you can point your Stripe app to your webscript.io url endpoint which look like this: `http://demo-{code}.webscript.io/{script-name}`. When you are ready, create some charge.succedded transactions on your Stripe test account and poof, you've got push notifications!
 
-##Gotchas
+## Gotchas
 One of the things that I struggled with was setting the header Content-Type to application/json, which is required by UrbanAirship. It took me a while to realize that the format needed to be passed into the headers table as `['Content-Type']`. I tried `Content-Type`, `content_type`, and `"Content-Type"` before I figured it out. The Content-Type is set to application/x-www-form-urlencoded by default.
 
-##Is this production ready?
+## Is this production ready?
 Surprisingly, I'd say yes, though with a guarded tone. I've done zero due diligence regarding security or scalibility for webscript.io, but I trust [Steve Marx](https://twitter.com/smarx), so there you go!
 
 **Update**

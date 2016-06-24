@@ -2,5 +2,4 @@ markdown: kramdown
 pygments: true
 permalink: /posts/:title
 auto: true
-rdiscount:
-  extensions: [smart]
+highlighter: rouge

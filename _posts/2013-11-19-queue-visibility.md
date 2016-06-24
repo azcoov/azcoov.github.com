@@ -2,7 +2,7 @@
 layout: post
 title: "Queue Visibility"
 excerpt:
-Nearby Now has been using SideKiq for 120 days now in production.
+  Nearby Now has been using SideKiq for 120 days now in production.
 ---
 
 Nearby Now has been using [SideKiq](http://sidekiq.org/) for 120 days now in

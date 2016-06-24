@@ -1,5 +1,7 @@
-markdown: kramdown
-pygments: true
 permalink: /posts/:title
-auto: true
-highlighter: rouge
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+name: Billy Coover
+url: https://www.coovtech.com
+twitter: billycoover

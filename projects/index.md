@@ -9,7 +9,7 @@ Once in a blue moon, I get a chance to hack on things. I'll list them here for y
 
 ### [BudgetBar](http://www.tekfolio.me/billy/portfolio/budget%20bar)
 
-I'm in love with [Harvest](http://www.getharvest.com) and the simple little graphs they use to represent the health of a budget. 
+I'm in love with [Harvest](http://www.getharvest.com) and the simple little graphs they use to represent the health of a budget.
 
 ### [jQuery Toaster](http://coovtech.com/projects/toaster)
 

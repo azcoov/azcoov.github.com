@@ -5,10 +5,10 @@ excerpt:
   abcdefg
 ---
 
-Nearby Now has been using [SideKiq](http://sidekiq.org/) for 120 days now in 
+Nearby Now has been using [SideKiq](http://sidekiq.org/) for 120 days now in
 production. That's odd, we are a .NET shop...
 
-##SQL Queuing
+## SQL Queuing
 Up until around 120 days ago, we were using SQL Server Message Broker. SSMB is appealing because it enables you to send asynchronous messages directly from your database code. You can target your own database, another db on the same server, or a remote server. There's a ton of features around transactions, locking, and security.
 
 If you've never used it or seen in action I'd describe it as powerful, robust, and very complicated. Complicated to setup, complicated to maintain, complicated to change.
@@ -20,7 +20,7 @@ The cost can be prohibitive if you want to run it on AWS; we'd be forced to run 
 Also, I've struggled trying to come up with an efficient automated testing solution.
 
 ##SideKiq
-While working at [Preact](www.preact.io) I got my first exposure to SideKiq and fell in love with it immediately. 
+While working at [Preact](www.preact.io) I got my first exposure to SideKiq and fell in love with it immediately.
 
 SideKiq is powerful in a much different way than SSMB. As a small company we are always trying to find the most cost effective solutions as well as the most efficient use of our precious programming time. With SideKiq you build ruby scripts called Workers that accept simple messages (usually database object ids), then "queue" them asynchronously.
 
